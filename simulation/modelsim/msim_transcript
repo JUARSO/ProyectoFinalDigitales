@@ -1,0 +1,143 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Ram_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:58 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv 
+# -- Compiling module clk_pc
+# 
+# Top level modules:
+# 	clk_pc
+# End time: 17:58:58 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:59 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv 
+# -- Compiling module sum_pc
+# 
+# Top level modules:
+# 	sum_pc
+# End time: 17:58:59 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:59 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv 
+# -- Compiling module modulo_instrucciones
+# 
+# Top level modules:
+# 	modulo_instrucciones
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:00 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv 
+# -- Compiling module modulo_PC
+# 
+# Top level modules:
+# 	modulo_PC
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:00 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv 
+# -- Compiling module instructionMemory
+# 
+# Top level modules:
+# 	instructionMemory
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:00 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv 
+# -- Compiling module test_Instruction_Memory
+# 
+# Top level modules:
+# 	test_Instruction_Memory
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:00 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv 
+# -- Compiling module test_moduloInstrucciones
+# 
+# Top level modules:
+# 	test_moduloInstrucciones
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:00 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv 
+# -- Compiling module test_suma
+# 
+# Top level modules:
+# 	test_suma
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:00 on May 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales" C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv 
+# -- Compiling module test_moduloPC
+# 
+# Top level modules:
+# 	test_moduloPC
+# End time: 17:59:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Test_Instruction_Memory
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Test_Instruction_Memory 
+# Start time: 17:59:00 on May 28,2022
+# ** Error: (vsim-3170) Could not find 'Test_Instruction_Memory'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/simulation/modelsim/rtl_work
+#             C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Ram_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.test_moduloInstrucciones
+# vsim work.test_moduloInstrucciones 
+# Start time: 17:59:00 on May 28,2022
+# Loading sv_std.std
+# Loading work.test_moduloInstrucciones
+# Loading work.modulo_instrucciones
+# Loading work.modulo_PC
+# Loading work.clk_pc
+# Loading work.sum_pc
+# Loading work.instructionMemory
+add wave  \
+sim:/test_moduloInstrucciones/clk \
+sim:/test_moduloInstrucciones/reset \
+sim:/test_moduloInstrucciones/dataOut
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "Bin.dat". (Current address [16], address range [0:15])    : C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv(13)
+#    Time: 0 ps  Iteration: 0  Instance: /test_moduloInstrucciones/modInst/intMem
+# End time: 18:02:22 on May 28,2022, Elapsed time: 0:03:22
+# Errors: 1, Warnings: 1

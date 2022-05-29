@@ -1,0 +1,250 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/simulation/modelsim
+vclk_pc
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1653782338
+!i10b 1
+!s100 OEgRNnK2EO5;X>693c>Vd3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IM>3@mjT7:J02@M`flTZVH1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1653781642
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv
+!i122 0
+L0 2 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1653782338.000000
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales
+Z7 tCvgOpt 0
+vinstructionMemory
+R1
+Z8 !s110 1653782340
+!i10b 1
+!s100 8=N;_g;VV1_6aF5:YN]GO0
+R2
+IdLS?<Re`Kh?mjG<2cRman2
+R3
+S1
+R0
+w1653676505
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv
+!i122 4
+L0 1 24
+R4
+r1
+!s85 0
+31
+Z9 !s108 1653782340.000000
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv|
+!i113 1
+R5
+R6
+R7
+ninstruction@memory
+vmodulo_instrucciones
+R1
+Z10 !s110 1653782339
+!i10b 1
+!s100 _mP6nbjd8Ti9kW092^_<d0
+R2
+I5ImYemP[AU?i`oYDCDR3]1
+R3
+S1
+R0
+Z11 w1653782315
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv
+!i122 2
+L0 1 13
+R4
+r1
+!s85 0
+31
+Z12 !s108 1653782339.000000
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv|
+!i113 1
+R5
+R6
+R7
+vmodulo_PC
+R1
+R8
+!i10b 1
+!s100 e=CBC3L3TZ=4<Wz8ZHIMP3
+R2
+I4f2L7bTh^G>@Mi:jnd8g]1
+R3
+S1
+R0
+w1653781798
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv
+!i122 3
+L0 1 10
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv|
+!i113 1
+R5
+R6
+R7
+nmodulo_@p@c
+vsum_pc
+R1
+R10
+!i10b 1
+!s100 P9S6XkiYbBoeGhLXa4CNC0
+R2
+IzKzQJ<I7S8_F?DI_J4iz10
+R3
+S1
+R0
+w1653780860
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv
+!i122 1
+L0 1 7
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv|
+!i113 1
+R5
+R6
+R7
+vtest_Instruction_Memory
+R1
+R8
+!i10b 1
+!s100 YHAO5Pi;hX0fEidhAbiBd3
+R2
+IVI]7:L[fO[FnXefV`:eN>2
+R3
+S1
+R0
+w1653677396
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv
+!i122 5
+L0 1 23
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv|
+!i113 1
+R5
+R6
+R7
+ntest_@instruction_@memory
+vtest_moduloInstrucciones
+R1
+R8
+!i10b 1
+!s100 fWg][JQEhcVmBnNQUW]EX0
+R2
+IDRA?V<1_k>ME<0L@YRH7;1
+R3
+S1
+R0
+R11
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv
+!i122 6
+L0 1 54
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv|
+!i113 1
+R5
+R6
+R7
+ntest_modulo@instrucciones
+vtest_moduloPC
+R1
+R8
+!i10b 1
+!s100 [e=k`2LZm@`[P?R;KY4H^3
+R2
+I7o:[8QN[li?XiAHGF3FJ;1
+R3
+S1
+R0
+w1653781988
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv
+!i122 8
+L0 1 43
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv|
+!i113 1
+R5
+R6
+R7
+ntest_modulo@p@c
+vtest_suma
+R1
+R8
+!i10b 1
+!s100 g49===j>CN?U>Rbi_@k5^1
+R2
+IMacAD`bGVEHlf9C5`BHAH3
+R3
+S1
+R0
+w1653781716
+8C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv
+FC:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv
+!i122 7
+L0 1 21
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales|C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv|
+!i113 1
+R5
+R6
+R7
