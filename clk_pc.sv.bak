@@ -1,0 +1,14 @@
+module clk_pc(output [31:0] pc_Int,input clk, output [31:0] pc_Out);
+
+	logic [31:0] outAux;
+
+	always @ (posedge clk)
+		
+		begin 
+			outAux = pc_Int;
+		end
+	
+	assign pc_Out = outAux;
+	
+	endmodule
+	

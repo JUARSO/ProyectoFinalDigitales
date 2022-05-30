@@ -1,0 +1,7 @@
+module modulo_instrucciones(input [31:0] pc_Int, input clk, output [31:0] dataOut);
+
+	wire [31:0] pc_Out;
+
+	clk_pc clkPc(pc_Int,input clk, output [31:0] pc_Out);
+	instructionMemory intMem(pc_Out, clk, dataOut);
+	sum_pc(pc_Out, pc_Int);

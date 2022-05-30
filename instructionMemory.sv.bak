@@ -1,0 +1,9 @@
+module instructionMemory(
+	input [31:0] pc,
+	input clk,
+	output [31:0] dataOut);
+	
+	
+	
+	logic [7:0] ram [15:0];
+	logic [31:0] outAux

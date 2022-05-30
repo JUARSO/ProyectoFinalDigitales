@@ -16,7 +16,7 @@ module instructionMemory(
 	always @ (posedge clk)
 		
 		begin 
-			outAux = {ram[pc+3], ram[pc+2], ram[pc+1], ram[pc]};
+			outAux = {ram[pc], ram[pc+1], ram[pc+2], ram[pc+3]};
 		end
 	
 	assign dataOut = outAux;

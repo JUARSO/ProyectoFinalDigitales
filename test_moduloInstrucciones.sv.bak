@@ -1,0 +1,23 @@
+module test_moduloInstrucciones();
+
+
+	
+	reg clk;
+	reg [31:0] dataOut;
+	
+	
+	modulo_instrucciones modInst(clk, dataOut);
+	
+	initial begin 
+		clk = 0;
+		#10;
+		
+	end
+	
+	always begin
+	
+		clk=~clk;
+		#5;
+	end
+	
+	endmodule 

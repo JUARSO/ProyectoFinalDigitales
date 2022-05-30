@@ -1,0 +1,5 @@
+module test_Instruction_Memory();
+	
+	reg [31:0] pc,
+	reg clk,
+	reg [31:0] dataOut

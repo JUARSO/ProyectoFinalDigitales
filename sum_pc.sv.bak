@@ -1,0 +1,14 @@
+module sum_pc(input [31:0] pc_Int, output [31:0] pc_Out);
+	
+	logic [31:0] pc_Aux;
+	
+	initial begin
+	
+		pc_Aux = pc_Int + 32'd4;
+	
+	end
+	
+	assign pc_Out = pc_Aux;
+	
+	endmodule
+	

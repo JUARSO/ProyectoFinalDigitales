@@ -1,0 +1,20 @@
+module testMUX();
+
+logic [31:0] pc1;
+logic [31:0] pc2;
+logic s;
+logic [31:0] Out;
+
+muxARM #(32) mux2(pc1,pc2,s,Out);
+
+
+
+initial begin
+
+	s=0;
+	#15;
+	s=1;
+	#15;
+
+end
+
