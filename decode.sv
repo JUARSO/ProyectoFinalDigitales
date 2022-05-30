@@ -45,6 +45,7 @@ logic Branch, ALUOp;
 		
 		ALUControl = 2'b00; 
 		FlagW = 2'b00; 
+		
 		end
 	assign PCS = ((Rd == 4'b1111) & RegW) | Branch;
 	

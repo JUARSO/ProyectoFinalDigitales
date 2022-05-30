@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY muxARM
+set_global_assignment -name TOP_LEVEL_ENTITY modulo_PC
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:30:14  MAY 18, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
@@ -78,13 +78,17 @@ set_global_assignment -name SYSTEMVERILOG_FILE extend.sv
 set_global_assignment -name SYSTEMVERILOG_FILE decode.sv
 set_global_assignment -name SYSTEMVERILOG_FILE muxARM.sv
 set_global_assignment -name SYSTEMVERILOG_FILE testMUX.sv
+set_global_assignment -name SYSTEMVERILOG_FILE condlogic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE flopenr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE unidadControl.sv
+set_global_assignment -name SYSTEMVERILOG_FILE test_UnidadControl.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE test_Instruction_Memory.sv -section_id Test_Instruction_Memory
 set_global_assignment -name EDA_TEST_BENCH_FILE test_moduloInstrucciones.sv -section_id Test_Instruction_Memory
 set_global_assignment -name EDA_TEST_BENCH_FILE test_suma.sv -section_id Test_Instruction_Memory
 set_global_assignment -name EDA_TEST_BENCH_FILE test_moduloPC.sv -section_id Test_Instruction_Memory
 set_global_assignment -name EDA_TEST_BENCH_FILE testMUX.sv -section_id Test_Instruction_Memory
+set_global_assignment -name EDA_TEST_BENCH_FILE test_UnidadControl.sv -section_id Test_Instruction_Memory
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE condlogic.sv
