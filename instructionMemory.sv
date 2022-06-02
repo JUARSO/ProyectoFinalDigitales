@@ -5,12 +5,12 @@ module instructionMemory(
 	
 	//( ){ }[ ]
 	
-	logic [7:0] ram [15:0];
+	logic [7:0] ram [327:0];
 	logic [31:0] outAux;
 	
 	initial 
 	
-		$readmemh("Bin.dat",ram);
+		$readmemh("BinarioV2.dat",ram);
 		
 		
 	always @ (posedge clk)

@@ -9,12 +9,25 @@ vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinal
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/extend.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/decode.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/muxARM.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/condlogic.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/flopenr.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/unidadControl.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/regfile.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Instuction_Register.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/control_Reg_Inst.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv}
 
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloInstrucciones.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_suma.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_moduloPC.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/testMUX.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_UnidadControl.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instuction_Register.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_control_Reg_Inst.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Test_Instruction_Memory
 

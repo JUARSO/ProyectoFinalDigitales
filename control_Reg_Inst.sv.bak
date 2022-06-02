@@ -1,0 +1,32 @@
+module control_Reg_Inst(input logic clk,reset);
+
+
+logic [1:0] RegSrc;
+logic RegWrite;
+logic [1:0] ImmSrc;
+logic ALUSrc;
+logic [1:0] ALUControl;
+logic MemWrite, MemtoReg;
+logic PCSrc;
+logic [31:0] result;
+
+
+unidadControl unitC(clk, reset,
+							Instr,
+							ALUFlags,
+						RegSrc,
+						RegWrite,
+						ImmSrc,
+						ALUSrc,
+						ALUControl,
+						MemWrite, MemtoReg,
+						PCSrc);
+						
+module Instuction_Register(clk, reset,PCSrc,
+									[31:0] result,
+									RegSrc,
+									RegWrite,
+									ImmSrc,
+									ALUSrc,
+									output logic [31:0] SrcA, SrcB,
+									output logic [31:0] WriteData);
