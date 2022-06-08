@@ -4,7 +4,9 @@ input logic [3:0] Rd,
 output logic [1:0] FlagW,
 output logic PCS, RegW, MemW,
 output logic MemtoReg, ALUSrc,
-output logic [1:0] ImmSrc, RegSrc, ALUControl);
+output logic [1:0] ImmSrc, RegSrc,
+output logic [3:0] ALUControl,
+output logic NoWrite);
 
 logic [9:0] controls;
 logic Branch, ALUOp;
@@ -31,20 +33,26 @@ logic Branch, ALUOp;
 	always_comb
 		if (ALUOp) begin 
 			case(Funct[4:1])
-			4'b0100: ALUControl = 2'b00; // ADD
-			4'b0010: ALUControl = 2'b01; //SUB
-			4'b0000: ALUControl = 2'b10; //AND
-			4'b1100: ALUControl = 2'b11; //ORR
-			default: ALUControl = 2'bx; 
+			4'b0100: ALUControl = 4'b0000; // ADD
+			4'b0010: ALUControl = 4'b0001; //SUB
+			4'b0000: ALUControl = 4'b0101; //AND
+			4'b1100: ALUControl = 4'b0110; //ORR
+			4'b1010: if (Funct[0]) ALUControl = 4'b0001; //CMP
+							else ALUControl = 4'bx;
+			4'b1101: ALUControl = 4'b1010; // MOV
+			default: ALUControl = 4'bx; 
 			endcase
 	
 		FlagW[1] = Funct[0];
 		FlagW[0] = Funct[0] &
-		(ALUControl == 2'b00 | ALUControl == 2'b01);
+		(ALUControl == 4'b0000 | ALUControl == 4'b0001);
+		
+		NoWrite = (Funct[4:1] == 4'b1010); //CMP Flag
 		end else begin
 		
-		ALUControl = 2'b00; 
-		FlagW = 2'b00; 
+		ALUControl = 4'b0000; 
+		FlagW = 2'b00;
+		NoWrite = 1'b0; //CMP Flag	
 		
 		end
 	assign PCS = ((Rd == 4'b1111) & RegW) | Branch;

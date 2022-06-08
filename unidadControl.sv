@@ -5,18 +5,18 @@ module unidadControl(input logic clk, reset,
 						output logic RegWrite,
 						output logic [1:0] ImmSrc,
 						output logic ALUSrc,
-						output logic [1:0] ALUControl,
+						output logic [3:0] ALUControl,
 						output logic MemWrite, MemtoReg,
 						output logic PCSrc);
 						
 	logic [1:0] FlagW;
-	logic PCS, RegW, MemW;
+	logic PCS, RegW, MemW, NoWrite;
 	
 	decode dec(Instr[27:26], Instr[25:20], Instr[15:12],
 	FlagW, PCS, RegW, MemW,
-	MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+	MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl,NoWrite);
 	
-	condlogic cl(clk, reset, Instr[31:28], ALUFlags,
+	condlogic cl(clk, reset, NoWrite,Instr[31:28], ALUFlags,
 	FlagW, PCS, RegW, MemW,
 	PCSrc, RegWrite, MemWrite);
 	
