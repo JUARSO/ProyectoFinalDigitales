@@ -5,34 +5,6 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Sumador.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/ShiftRight.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/ShiftLeft.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Restador.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Multiplicador.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Multiplexor.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Modulador.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Divisor.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/ControladorBanderas.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/CompuertaXOR.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/CompuertaOR.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/CompuertaAND.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/ALU.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/clk_pc.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/sum_pc.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_instrucciones.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/modulo_PC.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/extend.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/decode.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/muxARM.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/condlogic.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/flopenr.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/unidadControl.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/regfile.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Instuction_Register.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/control_Reg_Inst.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Mov.sv}
-vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/RamD.sv}
 
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/test_Instruction_Memory.sv}

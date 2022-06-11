@@ -7,8 +7,9 @@ module RAM_Test();
 logic [31:0] Addr;
 	logic [31:0] q, data;
 	logic clk, wren;
+	logic [31:0] ram [327:0];
 	
-	RamD Ram(Addr, clk, data, wren, q);
+	RamD Ram(Addr, clk, data, wren, q,ram);
 
 always begin
 			clk = 0; # 2; clk = 1; # 2;

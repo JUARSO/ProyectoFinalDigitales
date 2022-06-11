@@ -14,6 +14,7 @@ logic [31:0] SrcA, SrcB;
 logic [31:0] WriteData;
 logic [31:0] Instr;
 logic [31:0] ReadData;
+logic [31:0] ram [327:0];
 //logic [31:0] ReadDataAux;
 
 
@@ -44,7 +45,7 @@ ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], AL
 
 //RAM Ram(Aluresult[7:0], clk, WriteData, MemWrite, ReadData);
 
-RamD Ram(Aluresult, clk, WriteData, MemWrite, ReadData);
+RamD Ram(Aluresult, clk, WriteData, MemWrite, ReadData,ram);
 
 muxARM #(32) muxALUDATA(Aluresult,ReadData,MemtoReg,result);
 
