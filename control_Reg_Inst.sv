@@ -9,9 +9,12 @@ logic [3:0] ALUControl;
 logic MemWrite, MemtoReg;
 logic PCSrc;
 logic [31:0] Aluresult;
+logic [31:0] result;
 logic [31:0] SrcA, SrcB;
 logic [31:0] WriteData;
 logic [31:0] Instr;
+logic [31:0] ReadData;
+//logic [31:0] ReadDataAux;
 
 
 unidadControl unitC(clk, reset,
@@ -26,7 +29,7 @@ unidadControl unitC(clk, reset,
 						PCSrc);
 						
 Instuction_Register mIR(clk, reset,PCSrc,
-									Aluresult,
+									result,
 									RegSrc,
 									RegWrite,
 									ImmSrc,
@@ -36,5 +39,15 @@ Instuction_Register mIR(clk, reset,PCSrc,
 									Instr);
 									
 ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], ALUFlags[1], ALUFlags[0]);
+
+//dataMemory dm(clk, MemWrite,Aluresult,WriteData,result);
+
+//RAM Ram(Aluresult[7:0], clk, WriteData, MemWrite, ReadData);
+
+RamD Ram(Aluresult, clk, WriteData, MemWrite, ReadData);
+
+muxARM #(32) muxALUDATA(Aluresult,ReadData,MemtoReg,result);
+
+//muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
 									
 endmodule

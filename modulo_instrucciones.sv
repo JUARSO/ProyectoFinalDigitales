@@ -9,7 +9,8 @@ module modulo_instrucciones(input clk, input reset,PCSrc, input [31:0] result,ou
 
 	instructionMemory intMem(pc, clk, dataOut);
 	
-	sum_pc #(32) sumPC(pc,32'b100,pc_8);
+	sum_pc #(32) sumPC(pc,32'd8,pc_8);
+
 	
 	
 endmodule

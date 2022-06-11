@@ -11,20 +11,21 @@ module test_moduloInstrucciones();
 	initial begin 
 		result = 32'd10;
 		PCSrc = 0;
-		#10;
-		clk = 0;
+		#1;
 		reset = 0;
-		#10;
+		#1;
 		reset = 1;
-		#10;
+		#1;
 		reset = 0;
-		#10;
+		#1;
+		
+		
 	
 		
 	end
 always
 begin
-clk <= 1; # 5; clk <= 0; # 5;
+clk <= 1; # 2; clk <= 0; # 2;
 end
 	
 	endmodule 

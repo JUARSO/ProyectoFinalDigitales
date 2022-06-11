@@ -13,13 +13,12 @@ module instructionMemory(
 		$readmemh("BinarioV2.dat",ram);
 		
 		
-	always @ (posedge clk)
-		
-		begin 
-			outAux = {ram[pc], ram[pc+1], ram[pc+2], ram[pc+3]};
-		end
 	
-	assign dataOut = outAux;
+		
+		
+	assign dataOut  = {ram[pc], ram[pc+1], ram[pc+2], ram[pc+3]};
+	
+	
+	
 	
 	endmodule
-	
