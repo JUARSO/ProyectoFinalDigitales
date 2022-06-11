@@ -1,0 +1,7 @@
+Warning (10273): Verilog HDL warning at extend.sv(9): extended using "x" or "z" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/extend.sv Line: 9
+Warning (10273): Verilog HDL warning at decode.sv(27): extended using "x" or "z" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/decode.sv Line: 27
+Warning (10273): Verilog HDL warning at decode.sv(41): extended using "x" or "z" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/decode.sv Line: 41
+Warning (10273): Verilog HDL warning at decode.sv(43): extended using "x" or "z" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/decode.sv Line: 43
+Info (10281): Verilog HDL Declaration information at control_Reg_Inst.sv(24): object "ram" differs only in case from object "Ram" in the same scope File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 24
+Info (10281): Verilog HDL Declaration information at RAM_Test.sv(10): object "ram" differs only in case from object "Ram" in the same scope File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RAM_Test.sv Line: 10
+Warning (10268): Verilog HDL information at RamD.sv(21): always construct contains both blocking and non-blocking assignments File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RamD.sv Line: 21

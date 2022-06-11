@@ -1,4 +1,11 @@
-module control_Reg_Inst(input logic clk,reset);
+module control_Reg_Inst(input logic clk,reset,
+	output logic [7:0] R,
+   output logic [7:0] G,
+   output logic [7:0] B,
+   output logic hsync,
+   output logic vsync,
+   output logic vgaclk
+);
 
 logic [3:0] ALUFlags;
 logic [1:0] RegSrc;
@@ -38,6 +45,19 @@ Instuction_Register mIR(clk, reset,PCSrc,
 									SrcA, SrcB,
 									WriteData,
 									Instr);
+									
+Clock clock(clk, clk2);
+
+VGA VGA_Controller(
+		.clk(clk),
+		.Red(R), 
+		.Green(G), 
+		.Blue(B), 
+		.hsync(hsync), 
+		.vsync(vsync), 
+		.vgaclk(vgaclk),
+		.ram(ram)
+		);
 									
 ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], ALUFlags[1], ALUFlags[0]);
 

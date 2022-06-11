@@ -1,0 +1,112 @@
+`define WHITE 24'hFFFFFF
+`define BLACK 24'h000000
+
+`define GREEN 24'h00FF00
+`define PURPLE 24'hCC99FF
+`define CELESTE 24'h00E4FF
+`define RED 24'hD10E49
+`define BLUE 24'h0000FF
+`define YELLOW 24'hF3F02A
+`define ORANGE 24'hF39C12 
+`define GRAY 24'h7F8C8D
+
+module SyncPantalla(
+	input logic VGA_CLK_IN,
+	output logic VGA_CLK_OUT,
+	output logic o_hsync,
+	output logic o_vsync,
+	output logic[7:0] out_R,
+	output logic[7:0] out_B,
+	output logic[7:0] out_G,
+	input logic  [31:0] displayAsquiiAux [327:0]
+);
+	//Contadores para coordenadas
+	reg[9:0] X0=0;
+	reg[9:0] Y0=0;
+
+	reg[7:0] color_R=0;
+	reg[7:0] color_B=0;
+	reg[7:0] color_G=0;
+	
+
+	
+			 
+	Pixel_On_Text2 t1(
+		VGA_CLK_IN,
+		displayAsquiiAux[327],
+		175, // text position.x (top left)
+		80, // text position.y (top left)
+		X0, // current position.x
+		Y0, // current position.y
+		pixel  // result, 1 if current pixel is on text, 0 otherwise
+	);
+
+	
+	Pixel_On_Text2 t2(
+		VGA_CLK_IN,
+		displayAsquii,
+		185, // text position.x (top left)
+		80, // text position.y (top left)
+		X0, // current position.x
+		Y0, // current position.y
+		pixel2  // result, 1 if current pixel is on text, 0 otherwise
+	);
+
+
+	
+				
+
+	
+	//FOR DOBLE
+	always @(posedge VGA_CLK_IN)
+		begin
+			if(X0 < 799)
+				X0 <= X0 + 1;
+			else
+				X0 <= 0;
+		end
+		
+	always @(posedge VGA_CLK_IN)
+		begin
+			if(X0 == 799)
+				begin
+					if(Y0 < 525)
+						Y0 <= Y0 + 1;
+					else
+						Y0 <= 0;
+				end
+		end
+	
+	always @(posedge VGA_CLK_IN)
+		if((0 < X0 && X0 < 800) && (0 < Y0 && Y0 < 520) && 
+						  (Y0 == 90  || Y0 == 110 || Y0 == 130 || Y0 == 150 || Y0 == 170 || Y0 == 190 || Y0 == 210 || 
+							Y0 == 230 || Y0 == 250 || Y0 == 270 || Y0 == 290 || Y0 == 310 || Y0 == 330 || Y0 == 350 ||
+							Y0 == 370 || Y0 == 390 || Y0 == 410 || Y0 == 430 || Y0 == 450 || Y0 == 30  || Y0 == 50  || 
+							Y0 == 70  || Y0 == 10  || Y0 == 470	|| Y0 == 490 || Y0 == 510	
+							)) 
+		begin
+			{color_R,color_G,color_B} <= `BLUE;;
+		end
+		else if((0 < X0 && X0 < 800) && (0 < Y0 && Y0 < 520) && X0 == 175)
+			begin
+				{color_R,color_G,color_B} <= `RED;;
+		end
+		else 
+			begin
+				if(pixel == 1 || pixel2 == 1) {color_R,color_G,color_B} <= `BLACK;
+				else {color_R,color_G,color_B} <= `WHITE;
+			end
+		
+		
+
+	
+	assign o_hsync = (0 <= X0 && X0 <96) ? 1:0;
+	assign o_vsync = (0 <= Y0 && Y0 <2) ? 1:0;
+	
+	assign VGA_CLK_OUT = VGA_CLK_IN;
+	
+	assign out_R = (X0 > 144 && X0 <= 783 && Y0 > 35 && Y0 <= 514)? color_R:8'h00;
+	assign out_B = (X0 > 144 && X0 <= 783 && Y0 > 35 && Y0 <= 514)? color_B:8'h00;
+	assign out_G = (X0 > 144 && X0 <= 783 && Y0 > 35 && Y0 <= 514)? color_G:8'h00;
+	
+endmodule
