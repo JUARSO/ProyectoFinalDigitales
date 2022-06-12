@@ -49,6 +49,8 @@ RamD Ram(Aluresult, clk, WriteData, MemWrite, ReadData,ram);
 
 muxARM #(32) muxALUDATA(Aluresult,ReadData,MemtoReg,result);
 
+//pruebaConexionRam pCR(ram);
+
 //muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
 									
 endmodule

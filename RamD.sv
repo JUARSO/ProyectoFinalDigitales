@@ -3,7 +3,7 @@ module RamD(input	[31:0] address,
 					input	[31:0] data,
 					input wren,
 					output [31:0] q,
-					output logic [31:0] ram_Out [327:0]);
+					output [31:0] ram_Out [327:0]);
 					
 					
 	logic [31:0] ram [327:0];
@@ -21,9 +21,11 @@ module RamD(input	[31:0] address,
 	always_ff @ (posedge clock) begin
 		
 			if(wren)
-				ram[address] <= data;
+				ram[address] <= out_aux;
 			else
 				out_aux = ram[address];
+				
+//			$display("%b",ram[address]);
 				
 	
 	end	
