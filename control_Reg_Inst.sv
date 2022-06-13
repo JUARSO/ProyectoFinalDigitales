@@ -20,8 +20,8 @@ logic [31:0] result;
 logic [31:0] SrcA, SrcB;
 logic [31:0] WriteData;
 logic [31:0] Instr;
-logic [31:0] ReadData;
-logic [31:0] ram [327:0];
+logic [7:0] ReadData;
+logic [7:0] ram [64:0];
 //logic [31:0] ReadDataAux;
 
 
@@ -65,9 +65,17 @@ ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], AL
 
 //RAM Ram(Aluresult[7:0], clk, WriteData, MemWrite, ReadData);
 
-RamD Ram(Aluresult, clk, WriteData, MemWrite, ReadData,ram);
+RamD Ram(Aluresult[7:0], clk, WriteData, MemWrite, ReadData,ram[64:0]);
 
-muxARM #(32) muxALUDATA(Aluresult,ReadData,MemtoReg,result);
+muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
+
+initial begin
+
+$display("%b",ram[7'd0]);
+
+end
+
+pruebaConexionRam pCR(ram[64:0]);
 
 //muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
 									
