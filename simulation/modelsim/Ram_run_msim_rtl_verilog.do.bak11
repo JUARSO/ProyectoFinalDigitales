@@ -32,6 +32,7 @@ vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinal
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Instuction_Register.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/control_Reg_Inst.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/Mov.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/pruebaConexionRam.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/instructionMemory.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales {C:/Users/arman/Documents/1Semestre2022/ProyectoFinalDigitales/RamD.sv}
 
