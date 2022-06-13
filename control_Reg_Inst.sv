@@ -55,7 +55,7 @@ Clock clock(clk, clk2);
 VGA VGA_Controller(
 		.clk(clk),
 		.display(display),
-		.ram(ram),
+		.ram(ram[64:0]),
 		.Red(R), 
 		.Green(G), 
 		.Blue(B), 

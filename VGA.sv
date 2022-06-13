@@ -18,7 +18,7 @@ module VGA(
 	Clock clock(clk, clk2);
 	SyncPantalla syncPantalla(
 		.display(display),
-		.ram(ram),
+		.ram(ram[64:0]),
 		.VGA_CLK_IN(clk2), 
 		.o_hsync(hsync), 
 		.o_vsync(vsync), 

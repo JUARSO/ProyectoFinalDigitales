@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/output_files/") File("Ram.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA5F31) Path("C:/Users/arman/Videos/ProyectoFinalDigitales/output_files/") File("Ram.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

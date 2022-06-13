@@ -7,7 +7,7 @@ module RamD(input	[7:0] address,
 					
 					
 	logic [7:0] ram [327:0];
-	logic [7:0] out_aux;
+	//logic [7:0] out_aux;
 	
 
 	
@@ -16,14 +16,14 @@ module RamD(input	[7:0] address,
 		$readmemb("frase.dat",ram);
 		
 		
-		
+	assign q = ram[address];
+	assign ram_Out = ram[64:0];
 		
 	always_ff @ (posedge clock) begin
 		
 			if(wren)
-				ram[address] <= out_aux;
-			else
-				out_aux = ram[address];
+				ram[address] <= data;
+			
 				
 //			$display("%b",ram[address]);
 				
@@ -36,8 +36,8 @@ module RamD(input	[7:0] address,
 		
 	
 	
-	assign q = out_aux;
-	assign ram_Out = ram[64:0];
+	
 
 	endmodule
+	
 	
