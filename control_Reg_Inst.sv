@@ -22,6 +22,10 @@ logic [31:0] WriteData;
 logic [31:0] Instr;
 logic [7:0] ReadData;
 logic [7:0] ram [64:0];
+
+reg [7:0] display;
+
+assign display = ram[64];
 //logic [31:0] ReadDataAux;
 
 
@@ -50,13 +54,14 @@ Clock clock(clk, clk2);
 
 VGA VGA_Controller(
 		.clk(clk),
+		.display(display),
+		.ram(ram),
 		.Red(R), 
 		.Green(G), 
 		.Blue(B), 
 		.hsync(hsync), 
 		.vsync(vsync), 
-		.vgaclk(vgaclk),
-		.ram(ram)
+		.vgaclk(vgaclk)
 		);
 									
 ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], ALUFlags[1], ALUFlags[0]);

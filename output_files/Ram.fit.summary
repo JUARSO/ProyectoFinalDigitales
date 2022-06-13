@@ -1,12 +1,12 @@
-Fitter Status : Successful - Fri Jun 10 22:36:32 2022
+Fitter Status : Successful - Mon Jun 13 02:28:59 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : Ram
 Top-level Entity Name : control_Reg_Inst
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 67 / 32,070 ( < 1 % )
-Total registers : 76
+Logic utilization (in ALMs) : 66 / 32,070 ( < 1 % )
+Total registers : 74
 Total pins : 29 / 457 ( 6 % )
 Total virtual pins : 0
 Total block memory bits : 32,768 / 4,065,280 ( < 1 % )

@@ -1,5 +1,5 @@
 Flow report for Ram
-Fri Jun 10 22:36:46 2022
+Mon Jun 13 02:29:19 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Jun 10 22:36:46 2022       ;
+; Flow Status                     ; Successful - Mon Jun 13 02:29:19 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; Ram                                         ;
 ; Top-level Entity Name           ; control_Reg_Inst                            ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 67 / 32,070 ( < 1 % )                       ;
-; Total registers                 ; 76                                          ;
+; Logic utilization (in ALMs)     ; 66 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 74                                          ;
 ; Total pins                      ; 29 / 457 ( 6 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 32,768 / 4,065,280 ( < 1 % )                ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/10/2022 22:35:53 ;
+; Start date & time ; 06/13/2022 02:28:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Ram                 ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+------------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name      ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 186423032802.165492215307352           ; --            ; --               ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 186423032802.165510888410988           ; --            ; --               ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --               ; Test_Instruction_Memory           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --               ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --               ; eda_board_design_boundary_scan    ;
@@ -104,7 +104,6 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --               ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --               ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --               ; --                                ;
-; MISC_FILE                            ; RAM_bb.v                               ; --            ; --               ; --                                ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; control_Reg_Inst ; Top                               ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; control_Reg_Inst ; Top                               ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; control_Reg_Inst ; Top                               ;
@@ -120,12 +119,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4915 MB             ; 00:00:20                           ;
-; Fitter               ; 00:00:29     ; 1.0                     ; 6603 MB             ; 00:00:56                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4842 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5170 MB             ; 00:00:05                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4726 MB             ; 00:00:01                           ;
-; Total                ; 00:00:50     ; --                      ; --                  ; 00:01:27                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4872 MB             ; 00:00:28                           ;
+; Fitter               ; 00:00:41     ; 1.0                     ; 6611 MB             ; 00:01:12                           ;
+; Assembler            ; 00:00:09     ; 1.0                     ; 4840 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.1                     ; 5170 MB             ; 00:00:06                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
+; Total                ; 00:01:11     ; --                      ; --                  ; 00:01:54                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

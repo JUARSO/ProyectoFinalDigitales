@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Ram
-Fri Jun 10 22:36:02 2022
+Mon Jun 13 02:28:17 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -17,42 +17,42 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   9. Registers Removed During Synthesis
  10. General Register Statistics
  11. Registers Packed Into Inferred Megafunctions
- 12. Source assignments for VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0|altsyncram_cvc1:auto_generated
- 13. Source assignments for VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0|altsyncram_cvc1:auto_generated
- 14. Parameter Settings for User Entity Instance: unidadControl:unitC|condlogic:cl|flopenr:flagreg1
- 15. Parameter Settings for User Entity Instance: unidadControl:unitC|condlogic:cl|flopenr:flagreg0
- 16. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|muxARM:pcmux
- 17. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|clk_pc:clkPc
- 18. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|sum_pc:sumPC
- 19. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|sum_pc:sumPC
- 20. Parameter Settings for User Entity Instance: Instuction_Register:mIR|muxARM:ra1mux
- 21. Parameter Settings for User Entity Instance: Instuction_Register:mIR|muxARM:ra2mux
- 22. Parameter Settings for User Entity Instance: Instuction_Register:mIR|muxARM:srcbmux
- 23. Parameter Settings for User Entity Instance: Clock:clock
- 24. Parameter Settings for User Entity Instance: VGA:VGA_Controller|Clock:clock
- 25. Parameter Settings for User Entity Instance: ALU:aluCPU
- 26. Parameter Settings for User Entity Instance: ALU:aluCPU|Sumador:sumadorALU
- 27. Parameter Settings for User Entity Instance: ALU:aluCPU|Restador:restadorALU
- 28. Parameter Settings for User Entity Instance: ALU:aluCPU|Multiplicador:multiplicadorALU
- 29. Parameter Settings for User Entity Instance: ALU:aluCPU|Divisor:divisorALU
- 30. Parameter Settings for User Entity Instance: ALU:aluCPU|Modulador:moduladorALU
- 31. Parameter Settings for User Entity Instance: ALU:aluCPU|CompuertaAND:andALU
- 32. Parameter Settings for User Entity Instance: ALU:aluCPU|CompuertaOR:orALU
- 33. Parameter Settings for User Entity Instance: ALU:aluCPU|CompuertaXOR:xorALU
- 34. Parameter Settings for User Entity Instance: ALU:aluCPU|ShiftLeft:shiftLeftALU
- 35. Parameter Settings for User Entity Instance: ALU:aluCPU|ShiftRight:shiftRightALU
- 36. Parameter Settings for User Entity Instance: ALU:aluCPU|Mov:MovALU
- 37. Parameter Settings for User Entity Instance: ALU:aluCPU|Multiplexor:multiplexorALU
- 38. Parameter Settings for User Entity Instance: ALU:aluCPU|ControladorBanderas:controladorBanderas
- 39. Parameter Settings for User Entity Instance: muxARM:muxALUDATA
- 40. Parameter Settings for Inferred Entity Instance: VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0
- 41. Parameter Settings for Inferred Entity Instance: VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0
- 42. altsyncram Parameter Settings by Entity Instance
- 43. Port Connectivity Checks: "RamD:Ram"
- 44. Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2"
- 45. Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1"
- 46. Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla"
- 47. Port Connectivity Checks: "VGA:VGA_Controller"
+ 12. Source assignments for RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated
+ 13. Source assignments for VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0|altsyncram_cvc1:auto_generated
+ 14. Source assignments for VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0|altsyncram_cvc1:auto_generated
+ 15. Parameter Settings for User Entity Instance: unidadControl:unitC|condlogic:cl|flopenr:flagreg1
+ 16. Parameter Settings for User Entity Instance: unidadControl:unitC|condlogic:cl|flopenr:flagreg0
+ 17. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|muxARM:pcmux
+ 18. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|clk_pc:clkPc
+ 19. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|sum_pc:sumPC
+ 20. Parameter Settings for User Entity Instance: Instuction_Register:mIR|modulo_instrucciones:mI|sum_pc:sumPC
+ 21. Parameter Settings for User Entity Instance: Instuction_Register:mIR|muxARM:ra1mux
+ 22. Parameter Settings for User Entity Instance: Instuction_Register:mIR|muxARM:ra2mux
+ 23. Parameter Settings for User Entity Instance: Instuction_Register:mIR|muxARM:srcbmux
+ 24. Parameter Settings for User Entity Instance: Clock:clock
+ 25. Parameter Settings for User Entity Instance: VGA:VGA_Controller|Clock:clock
+ 26. Parameter Settings for User Entity Instance: ALU:aluCPU
+ 27. Parameter Settings for User Entity Instance: ALU:aluCPU|Sumador:sumadorALU
+ 28. Parameter Settings for User Entity Instance: ALU:aluCPU|Restador:restadorALU
+ 29. Parameter Settings for User Entity Instance: ALU:aluCPU|Multiplicador:multiplicadorALU
+ 30. Parameter Settings for User Entity Instance: ALU:aluCPU|Divisor:divisorALU
+ 31. Parameter Settings for User Entity Instance: ALU:aluCPU|Modulador:moduladorALU
+ 32. Parameter Settings for User Entity Instance: ALU:aluCPU|CompuertaAND:andALU
+ 33. Parameter Settings for User Entity Instance: ALU:aluCPU|CompuertaOR:orALU
+ 34. Parameter Settings for User Entity Instance: ALU:aluCPU|CompuertaXOR:xorALU
+ 35. Parameter Settings for User Entity Instance: ALU:aluCPU|ShiftLeft:shiftLeftALU
+ 36. Parameter Settings for User Entity Instance: ALU:aluCPU|ShiftRight:shiftRightALU
+ 37. Parameter Settings for User Entity Instance: ALU:aluCPU|Mov:MovALU
+ 38. Parameter Settings for User Entity Instance: ALU:aluCPU|Multiplexor:multiplexorALU
+ 39. Parameter Settings for User Entity Instance: ALU:aluCPU|ControladorBanderas:controladorBanderas
+ 40. Parameter Settings for User Entity Instance: RamD:Ram|altsyncram:ram[0][7]__1
+ 41. Parameter Settings for User Entity Instance: muxARM:muxALUDATA
+ 42. Parameter Settings for Inferred Entity Instance: VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0
+ 43. Parameter Settings for Inferred Entity Instance: VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0
+ 44. altsyncram Parameter Settings by Entity Instance
+ 45. Port Connectivity Checks: "muxARM:muxALUDATA"
+ 46. Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2"
+ 47. Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1"
  48. Port Connectivity Checks: "Clock:clock"
  49. Port Connectivity Checks: "Instuction_Register:mIR|muxARM:ra1mux"
  50. Port Connectivity Checks: "Instuction_Register:mIR|modulo_instrucciones:mI|sum_pc:sumPC"
@@ -88,7 +88,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Jun 10 22:36:02 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Jun 13 02:28:17 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; Ram                                         ;
 ; Top-level Entity Name           ; control_Reg_Inst                            ;
@@ -208,8 +208,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -218,6 +217,12 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path      ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                               ; Library ;
 +---------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------+---------+
+; VGA.sv                                ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv                                ;         ;
+; SyncPantalla.sv                       ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv                       ;         ;
+; Clock.sv                              ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Clock.sv                              ;         ;
+; Pixel_On_Text2.vhd                    ; yes             ; User VHDL File                                        ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd                    ;         ;
+; Font_Rom.vhd                          ; yes             ; User VHDL File                                        ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Font_Rom.vhd                          ;         ;
+; CommonPak.vhd                         ; yes             ; User VHDL File                                        ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/CommonPak.vhd                         ;         ;
 ; frase.dat                             ; yes             ; User Unspecified File                                 ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/frase.dat                             ;         ;
 ; Sumador.sv                            ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Sumador.sv                            ;         ;
 ; ShiftRight.sv                         ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ShiftRight.sv                         ;         ;
@@ -249,12 +254,7 @@ https://fpgasoftware.intel.com/eula.
 ; control_Reg_Inst.sv                   ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv                   ;         ;
 ; Mov.sv                                ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Mov.sv                                ;         ;
 ; RamD.sv                               ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RamD.sv                               ;         ;
-; VGA.sv                                ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv                                ;         ;
-; Clock.sv                              ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Clock.sv                              ;         ;
-; SyncPantalla.sv                       ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv                       ;         ;
-; Pixel_On_Text2.vhd                    ; yes             ; User VHDL File                                        ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd                    ;         ;
-; CommonPak.vhd                         ; yes             ; User VHDL File                                        ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/CommonPak.vhd                         ;         ;
-; Font_Rom.vhd                          ; yes             ; User VHDL File                                        ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Font_Rom.vhd                          ;         ;
+; pruebaConexionRam.sv                  ; yes             ; User SystemVerilog HDL File                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/pruebaConexionRam.sv                  ;         ;
 ; altsyncram.tdf                        ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                                      ;         ;
 ; stratix_ram_block.inc                 ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc                               ;         ;
 ; lpm_mux.inc                           ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                                         ;         ;
@@ -264,6 +264,7 @@ https://fpgasoftware.intel.com/eula.
 ; altrom.inc                            ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altrom.inc                                          ;         ;
 ; altram.inc                            ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                                          ;         ;
 ; altdpram.inc                          ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                                        ;         ;
+; db/altsyncram_m0q1.tdf                ; yes             ; Auto-Generated Megafunction                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf                ;         ;
 ; db/altsyncram_cvc1.tdf                ; yes             ; Auto-Generated Megafunction                           ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_cvc1.tdf                ;         ;
 ; db/ram.ram0_font_rom_d6022abf.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/ram.ram0_font_rom_d6022abf.hdl.mif ;         ;
 +---------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------+---------+
@@ -276,10 +277,10 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------------------------------+
 ; Estimate of Logic utilization (ALMs needed) ; 64                                ;
 ;                                             ;                                   ;
-; Combinational ALUT usage for logic          ; 110                               ;
+; Combinational ALUT usage for logic          ; 109                               ;
 ;     -- 7 input functions                    ; 4                                 ;
-;     -- 6 input functions                    ; 14                                ;
-;     -- 5 input functions                    ; 16                                ;
+;     -- 6 input functions                    ; 15                                ;
+;     -- 5 input functions                    ; 14                                ;
 ;     -- 4 input functions                    ; 13                                ;
 ;     -- <=3 input functions                  ; 63                                ;
 ;                                             ;                                   ;
@@ -293,8 +294,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                                   ;
 ; Maximum fan-out node                        ; VGA:VGA_Controller|Clock:clock|co ;
 ; Maximum fan-out                             ; 43                                ;
-; Total fan-out                               ; 791                               ;
-; Average fan-out                             ; 3.31                              ;
+; Total fan-out                               ; 786                               ;
+; Average fan-out                             ; 3.30                              ;
 +---------------------------------------------+-----------------------------------+
 
 
@@ -303,15 +304,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                   ; Entity Name      ; Library Name ;
 +----------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
-; |control_Reg_Inst                                  ; 110 (0)             ; 55 (0)                    ; 32768             ; 0          ; 29   ; 0            ; |control_Reg_Inst                                                                                                                                     ; control_Reg_Inst ; work         ;
-;    |VGA:VGA_Controller|                            ; 110 (0)             ; 55 (0)                    ; 32768             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller                                                                                                                  ; VGA              ; work         ;
+; |control_Reg_Inst                                  ; 109 (0)             ; 55 (0)                    ; 32768             ; 0          ; 29   ; 0            ; |control_Reg_Inst                                                                                                                                     ; control_Reg_Inst ; work         ;
+;    |VGA:VGA_Controller|                            ; 109 (0)             ; 55 (0)                    ; 32768             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller                                                                                                                  ; VGA              ; work         ;
 ;       |Clock:clock|                                ; 35 (35)             ; 29 (29)                   ; 0                 ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|Clock:clock                                                                                                      ; Clock            ; work         ;
-;       |SyncPantalla:syncPantalla|                  ; 75 (56)             ; 26 (24)                   ; 32768             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla                                                                                        ; SyncPantalla     ; work         ;
-;          |Pixel_On_Text2:t1|                       ; 6 (6)               ; 1 (1)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1                                                                      ; Pixel_On_Text2   ; work         ;
+;       |SyncPantalla:syncPantalla|                  ; 74 (58)             ; 26 (24)                   ; 32768             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla                                                                                        ; SyncPantalla     ; work         ;
+;          |Pixel_On_Text2:t1|                       ; 5 (5)               ; 1 (1)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1                                                                      ; Pixel_On_Text2   ; work         ;
 ;             |Font_Rom:FontRom|                     ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom                                                     ; Font_Rom         ; work         ;
 ;                |altsyncram:ROM_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0                                ; altsyncram       ; work         ;
 ;                   |altsyncram_cvc1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0|altsyncram_cvc1:auto_generated ; altsyncram_cvc1  ; work         ;
-;          |Pixel_On_Text2:t2|                       ; 13 (13)             ; 1 (1)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2                                                                      ; Pixel_On_Text2   ; work         ;
+;          |Pixel_On_Text2:t2|                       ; 11 (11)             ; 1 (1)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2                                                                      ; Pixel_On_Text2   ; work         ;
 ;             |Font_Rom:FontRom|                     ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom                                                     ; Font_Rom         ; work         ;
 ;                |altsyncram:ROM_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0                                ; altsyncram       ; work         ;
 ;                   |altsyncram_cvc1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |control_Reg_Inst|VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0|altsyncram_cvc1:auto_generated ; altsyncram_cvc1  ; work         ;
@@ -329,19 +330,32 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+---------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                  ;
-+---------------------------------------------------------------+---------------------------------------------------------------------+
-; Register name                                                 ; Reason for Removal                                                  ;
-+---------------------------------------------------------------+---------------------------------------------------------------------+
-; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[0,4,6]   ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[7] ;
-; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_G[1..3]    ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[7] ;
-; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[1..3]    ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[5] ;
-; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_G[0,4..7]  ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[5] ;
-; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[1,2,4,5] ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[7] ;
-; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[0,3]     ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[6] ;
-; Total Number of Removed Registers = 20                        ;                                                                     ;
-+---------------------------------------------------------------+---------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                          ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+; Register name                                                                         ; Reason for Removal                                                  ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+; unidadControl:unitC|condlogic:cl|flopenr:flagreg0|q[1]                                ; Lost fanout                                                         ;
+; unidadControl:unitC|condlogic:cl|flopenr:flagreg1|q[1]                                ; Lost fanout                                                         ;
+; unidadControl:unitC|condlogic:cl|flopenr:flagreg0|q[0]                                ; Lost fanout                                                         ;
+; unidadControl:unitC|condlogic:cl|flopenr:flagreg1|q[0]                                ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][0]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][1]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][2]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][3]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][4]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][5]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][6]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; RamD:Ram|ram[64][7]                                                                   ; Stuck at GND due to stuck port clock_enable                         ;
+; Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|clk_pc:clkPc|q[0..31] ; Lost fanout                                                         ;
+; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[0,4,6]                           ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[7] ;
+; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_G[1..3]                            ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[7] ;
+; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[1..3]                            ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[5] ;
+; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_G[0,4..7]                          ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_R[5] ;
+; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[1,2,4,5]                         ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[7] ;
+; VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[0,3]                             ; Merged with VGA:VGA_Controller|SyncPantalla:syncPantalla|color_B[6] ;
+; Total Number of Removed Registers = 64                                                ;                                                                     ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -367,6 +381,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|fontRow[0..7] ; VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|ROM_rtl_0 ; RAM  ;
 ; VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|fontRow[0..7] ; VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom|ROM_rtl_0 ; RAM  ;
 +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+------+
+
+
++----------------------------------------------------------------------------------------+
+; Source assignments for RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated ;
++---------------------------------+--------------------+------+--------------------------+
+; Assignment                      ; Value              ; From ; To                       ;
++---------------------------------+--------------------+------+--------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                        ;
++---------------------------------+--------------------+------+--------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -637,6 +660,67 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RamD:Ram|altsyncram:ram[0][7]__1 ;
++------------------------------------+----------------------+-------------------+
+; Parameter Name                     ; Value                ; Type              ;
++------------------------------------+----------------------+-------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped           ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY        ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY      ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE      ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE    ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped           ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped           ;
+; WIDTH_A                            ; 8                    ; Untyped           ;
+; WIDTHAD_A                          ; 8                    ; Untyped           ;
+; NUMWORDS_A                         ; 256                  ; Untyped           ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped           ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped           ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped           ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped           ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped           ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped           ;
+; WIDTH_B                            ; 8                    ; Untyped           ;
+; WIDTHAD_B                          ; 8                    ; Untyped           ;
+; NUMWORDS_B                         ; 256                  ; Untyped           ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped           ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped           ;
+; RDCONTROL_REG_B                    ; CLOCK0               ; Untyped           ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped           ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped           ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped           ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped           ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped           ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped           ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped           ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped           ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped           ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped           ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped           ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped           ;
+; BYTE_SIZE                          ; 8                    ; Untyped           ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA             ; Untyped           ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped           ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped           ;
+; INIT_FILE                          ; UNUSED               ; Untyped           ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped           ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped           ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped           ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped           ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped           ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped           ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped           ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped           ;
+; ENABLE_ECC                         ; FALSE                ; Untyped           ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped           ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped           ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped           ;
+; CBXI_PARAMETER                     ; altsyncram_m0q1      ; Untyped           ;
++------------------------------------+----------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: muxARM:muxALUDATA ;
 +----------------+-------+---------------------------------------+
@@ -774,7 +858,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+------------------------------------------------------------------------------------------------------+
 ; Name                                      ; Value                                                                                                ;
 +-------------------------------------------+------------------------------------------------------------------------------------------------------+
-; Number of entity instances                ; 2                                                                                                    ;
+; Number of entity instances                ; 3                                                                                                    ;
+; Entity Instance                           ; RamD:Ram|altsyncram:ram[0][7]__1                                                                     ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                                                                            ;
+;     -- WIDTH_A                            ; 8                                                                                                    ;
+;     -- NUMWORDS_A                         ; 256                                                                                                  ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                         ;
+;     -- WIDTH_B                            ; 8                                                                                                    ;
+;     -- NUMWORDS_B                         ; 256                                                                                                  ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                                                               ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                         ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                 ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                                                                             ;
 ; Entity Instance                           ; VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0 ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                  ;
 ;     -- WIDTH_A                            ; 8                                                                                                    ;
@@ -800,74 +895,59 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RamD:Ram"                                                                              ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; ram_Out ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
++-----------------------------------------------+
+; Port Connectivity Checks: "muxARM:muxALUDATA" ;
++-----------+-------+----------+----------------+
+; Port      ; Type  ; Severity ; Details        ;
++-----------+-------+----------+----------------+
+; d1[31..8] ; Input ; Info     ; Stuck at GND   ;
++-----------+-------+----------+----------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2"                                                                                                                       ;
-+------------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port             ; Type  ; Severity ; Details                                                                                                                                                                    ;
-+------------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; displayasquii    ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "displayasquii[-2147483647..-2147483617]" will be connected to GND. ;
-; positionx[5..3]  ; Input ; Info     ; Stuck at VCC                                                                                                                                                               ;
-; positionx[31..8] ; Input ; Info     ; Stuck at GND                                                                                                                                                               ;
-; positionx[2..1]  ; Input ; Info     ; Stuck at GND                                                                                                                                                               ;
-; positionx[7]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                               ;
-; positionx[6]     ; Input ; Info     ; Stuck at GND                                                                                                                                                               ;
-; positionx[0]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                               ;
-; positiony[31..7] ; Input ; Info     ; Stuck at GND                                                                                                                                                               ;
-; positiony[3..0]  ; Input ; Info     ; Stuck at GND                                                                                                                                                               ;
-; positiony[6]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                               ;
-; positiony[5]     ; Input ; Info     ; Stuck at GND                                                                                                                                                               ;
-; positiony[4]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                               ;
-; horzcoord        ; Input ; Warning  ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "horzcoord[-2147483647..-2147483626]" will be connected to GND.    ;
-; vertcoord        ; Input ; Warning  ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "vertcoord[-2147483647..-2147483626]" will be connected to GND.    ;
-+------------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2"                                                                                                                                      ;
++-------------------+-------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port              ; Type  ; Severity         ; Details                                                                                                                                                                          ;
++-------------------+-------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; displayasquii     ; Input ; Critical Warning ; Can't connect array with 8 elements in array dimension 1 to port with 2 elements in the same dimension                                                                           ;
+; displayasquii[..] ; Input ; Warning          ; Input port expression (1 bits) is wider than the input port (0 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; positionx[5..3]   ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positionx[31..8]  ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positionx[2..1]   ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positionx[7]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positionx[6]      ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positionx[0]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positiony[31..7]  ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[3..0]   ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[6]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positiony[5]      ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[4]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; horzcoord         ; Input ; Warning          ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "horzcoord[-2147483647..-2147483626]" will be connected to GND.          ;
+; vertcoord         ; Input ; Warning          ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "vertcoord[-2147483647..-2147483626]" will be connected to GND.          ;
++-------------------+-------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1"                                                                                                                    ;
-+------------------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port             ; Type  ; Severity ; Details                                                                                                                                                                 ;
-+------------------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; positionx[3..0]  ; Input ; Info     ; Stuck at VCC                                                                                                                                                            ;
-; positionx[31..8] ; Input ; Info     ; Stuck at GND                                                                                                                                                            ;
-; positionx[7]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                            ;
-; positionx[6]     ; Input ; Info     ; Stuck at GND                                                                                                                                                            ;
-; positionx[5]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                            ;
-; positionx[4]     ; Input ; Info     ; Stuck at GND                                                                                                                                                            ;
-; positiony[31..7] ; Input ; Info     ; Stuck at GND                                                                                                                                                            ;
-; positiony[3..0]  ; Input ; Info     ; Stuck at GND                                                                                                                                                            ;
-; positiony[6]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                            ;
-; positiony[5]     ; Input ; Info     ; Stuck at GND                                                                                                                                                            ;
-; positiony[4]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                            ;
-; horzcoord        ; Input ; Warning  ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "horzcoord[-2147483647..-2147483626]" will be connected to GND. ;
-; vertcoord        ; Input ; Warning  ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "vertcoord[-2147483647..-2147483626]" will be connected to GND. ;
-+------------------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla" ;
-+------------------+-------+----------+------------------------------------+
-; Port             ; Type  ; Severity ; Details                            ;
-+------------------+-------+----------+------------------------------------+
-; displayAsquiiAux ; Input ; Info     ; Stuck at GND                       ;
-+------------------+-------+----------+------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGA:VGA_Controller"                                                                 ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; ram  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1"                                                                                                                                      ;
++-------------------+-------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port              ; Type  ; Severity         ; Details                                                                                                                                                                          ;
++-------------------+-------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; displayasquii     ; Input ; Critical Warning ; Can't connect array with 8 elements in array dimension 1 to port with 2 elements in the same dimension                                                                           ;
+; displayasquii[..] ; Input ; Warning          ; Input port expression (1 bits) is wider than the input port (0 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; positionx[3..0]   ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positionx[31..8]  ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positionx[7]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positionx[6]      ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positionx[5]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positionx[4]      ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[31..7]  ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[3..0]   ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[6]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; positiony[5]      ; Input ; Info             ; Stuck at GND                                                                                                                                                                     ;
+; positiony[4]      ; Input ; Info             ; Stuck at VCC                                                                                                                                                                     ;
+; horzcoord         ; Input ; Warning          ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "horzcoord[-2147483647..-2147483626]" will be connected to GND.          ;
+; vertcoord         ; Input ; Warning          ; Input port expression (10 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "vertcoord[-2147483647..-2147483626]" will be connected to GND.          ;
++-------------------+-------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -928,18 +1008,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SCLR          ; 10                          ;
 ;     SCLR              ; 38                          ;
 ;     plain             ; 7                           ;
-; arriav_lcell_comb     ; 110                         ;
+; arriav_lcell_comb     ; 109                         ;
 ;     arith             ; 48                          ;
 ;         1 data inputs ; 48                          ;
 ;     extend            ; 4                           ;
 ;         7 data inputs ; 4                           ;
-;     normal            ; 58                          ;
+;     normal            ; 57                          ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 3                           ;
-;         3 data inputs ; 10                          ;
+;         2 data inputs ; 4                           ;
+;         3 data inputs ; 9                           ;
 ;         4 data inputs ; 13                          ;
-;         5 data inputs ; 16                          ;
-;         6 data inputs ; 14                          ;
+;         5 data inputs ; 14                          ;
+;         6 data inputs ; 15                          ;
 ; boundary_port         ; 29                          ;
 ; stratixv_ram_block    ; 16                          ;
 ;                       ;                             ;
@@ -963,10 +1043,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Jun 10 22:35:52 2022
+    Info: Processing started: Mon Jun 13 02:28:04 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Ram -c Ram
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file vga.sv
+    Info (12023): Found entity 1: VGA File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file syncpantalla.sv
+    Info (12023): Found entity 1: SyncPantalla File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 13
+Info (12021): Found 1 design units, including 1 entities, in source file clock.sv
+    Info (12023): Found entity 1: Clock File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Clock.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ram_bb.v
+    Info (12023): Found entity 1: RAM File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RAM_bb.v Line: 35
+Info (12021): Found 2 design units, including 1 entities, in source file pixel_on_text2.vhd
+    Info (12022): Found design unit 1: Pixel_On_Text2-Behavioral File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd Line: 21
+    Info (12023): Found entity 1: Pixel_On_Text2 File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file font_rom.vhd
+    Info (12022): Found design unit 1: Font_Rom-Behavioral File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Font_Rom.vhd Line: 15
+    Info (12023): Found entity 1: Font_Rom File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Font_Rom.vhd Line: 7
+Info (12021): Found 2 design units, including 0 entities, in source file commonpak.vhd
+    Info (12022): Found design unit 1: commonPak File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/CommonPak.vhd Line: 6
+    Info (12022): Found design unit 2: commonPak-body File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/CommonPak.vhd Line: 70
 Info (12021): Found 1 design units, including 1 entities, in source file testalu.sv
     Info (12023): Found entity 1: TestAlu File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/TestAlu.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file sumador.sv
@@ -1048,8 +1145,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file mov.sv
     Info (12023): Found entity 1: Mov File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Mov.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datamemory.sv
     Info (12023): Found entity 1: dataMemory File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/dataMemory.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: RAM File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RAM.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file ram_test.sv
     Info (12023): Found entity 1: RAM_Test File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RAM_Test.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file ramd.sv
@@ -1058,35 +1153,21 @@ Info (12021): Found 1 design units, including 1 entities, in source file cpu.sv
     Info (12023): Found entity 1: cpu File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/cpu.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file test_cpu.sv
     Info (12023): Found entity 1: test_cpu File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/test_cpu.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file vga.sv
-    Info (12023): Found entity 1: VGA File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file clock.sv
-    Info (12023): Found entity 1: Clock File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Clock.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file syncpantalla.sv
-    Info (12023): Found entity 1: SyncPantalla File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 13
-Info (12021): Found 2 design units, including 1 entities, in source file pixel_on_text2.vhd
-    Info (12022): Found design unit 1: Pixel_On_Text2-Behavioral File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd Line: 21
-    Info (12023): Found entity 1: Pixel_On_Text2 File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd Line: 7
-Info (12021): Found 2 design units, including 0 entities, in source file commonpak.vhd
-    Info (12022): Found design unit 1: commonPak File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/CommonPak.vhd Line: 6
-    Info (12022): Found design unit 2: commonPak-body File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/CommonPak.vhd Line: 70
-Info (12021): Found 2 design units, including 1 entities, in source file font_rom.vhd
-    Info (12022): Found design unit 1: Font_Rom-Behavioral File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Font_Rom.vhd Line: 15
-    Info (12023): Found entity 1: Font_Rom File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Font_Rom.vhd Line: 7
-Warning (10236): Verilog HDL Implicit Net warning at control_Reg_Inst.sv(49): created implicit net for "clk2" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 49
-Warning (10236): Verilog HDL Implicit Net warning at VGA.sv(13): created implicit net for "sync" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 13
-Warning (10236): Verilog HDL Implicit Net warning at VGA.sv(15): created implicit net for "clk2" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 15
-Warning (10236): Verilog HDL Implicit Net warning at SyncPantalla.sv(42): created implicit net for "pixel" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 42
-Warning (10236): Verilog HDL Implicit Net warning at SyncPantalla.sv(47): created implicit net for "displayAsquii" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 47
-Warning (10236): Verilog HDL Implicit Net warning at SyncPantalla.sv(53): created implicit net for "pixel2" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 53
+Info (12021): Found 1 design units, including 1 entities, in source file pruebaconexionram.sv
+    Info (12023): Found entity 1: pruebaConexionRam File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/pruebaConexionRam.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at VGA.sv(14): created implicit net for "sync" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 14
+Warning (10236): Verilog HDL Implicit Net warning at VGA.sv(18): created implicit net for "clk2" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at SyncPantalla.sv(43): created implicit net for "pixel" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 43
+Warning (10236): Verilog HDL Implicit Net warning at SyncPantalla.sv(54): created implicit net for "pixel2" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 54
+Warning (10236): Verilog HDL Implicit Net warning at control_Reg_Inst.sv(53): created implicit net for "clk2" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 53
 Info (12127): Elaborating entity "control_Reg_Inst" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at control_Reg_Inst.sv(24): object "ram" assigned a value but never read File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 24
-Info (12128): Elaborating entity "unidadControl" for hierarchy "unidadControl:unitC" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 37
+Info (10648): Verilog HDL Display System Task info at control_Reg_Inst.sv(79): ........ File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 79
+Info (12128): Elaborating entity "unidadControl" for hierarchy "unidadControl:unitC" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 41
 Info (12128): Elaborating entity "decode" for hierarchy "unidadControl:unitC|decode:dec" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/unidadControl.sv Line: 17
 Info (12128): Elaborating entity "condlogic" for hierarchy "unidadControl:unitC|condlogic:cl" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/unidadControl.sv Line: 21
 Info (12128): Elaborating entity "flopenr" for hierarchy "unidadControl:unitC|condlogic:cl|flopenr:flagreg1" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/condlogic.sv Line: 13
 Info (12128): Elaborating entity "condcheck" for hierarchy "unidadControl:unitC|condlogic:cl|condcheck:cc" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/condlogic.sv Line: 17
-Info (12128): Elaborating entity "Instuction_Register" for hierarchy "Instuction_Register:mIR" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 47
+Info (12128): Elaborating entity "Instuction_Register" for hierarchy "Instuction_Register:mIR" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 51
 Info (12128): Elaborating entity "modulo_instrucciones" for hierarchy "Instuction_Register:mIR|modulo_instrucciones:mI" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Instuction_Register.sv Line: 21
 Info (12128): Elaborating entity "modulo_PC" for hierarchy "Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/modulo_instrucciones.sv Line: 8
 Info (12128): Elaborating entity "muxARM" for hierarchy "Instuction_Register:mIR|modulo_instrucciones:mI|modulo_PC:modPC|muxARM:pcmux" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/modulo_PC.sv Line: 7
@@ -1099,19 +1180,17 @@ Warning (10030): Net "ram" at instructionMemory.sv(8) has no driver or initial v
 Info (12128): Elaborating entity "muxARM" for hierarchy "Instuction_Register:mIR|muxARM:ra1mux" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Instuction_Register.sv Line: 24
 Info (12128): Elaborating entity "regfile" for hierarchy "Instuction_Register:mIR|regfile:rf" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Instuction_Register.sv Line: 30
 Info (12128): Elaborating entity "extend" for hierarchy "Instuction_Register:mIR|extend:ext" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Instuction_Register.sv Line: 32
-Info (12128): Elaborating entity "Clock" for hierarchy "Clock:clock" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 49
-Info (12128): Elaborating entity "VGA" for hierarchy "VGA:VGA_Controller" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 60
-Warning (10036): Verilog HDL or VHDL warning at VGA.sv(13): object "sync" assigned a value but never read File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 13
-Warning (10030): Net "ram" at VGA.sv(3) has no driver or initial value, using a default initial value '0' File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 3
-Info (12128): Elaborating entity "SyncPantalla" for hierarchy "VGA:VGA_Controller|SyncPantalla:syncPantalla" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 25
-Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(64): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 64
-Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(74): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 74
-Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(103): truncated value with size 32 to match size of target (1) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 103
+Info (12128): Elaborating entity "Clock" for hierarchy "Clock:clock" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 53
+Info (12128): Elaborating entity "VGA" for hierarchy "VGA:VGA_Controller" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 65
+Warning (10036): Verilog HDL or VHDL warning at VGA.sv(14): object "sync" assigned a value but never read File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 14
+Info (12128): Elaborating entity "SyncPantalla" for hierarchy "VGA:VGA_Controller|SyncPantalla:syncPantalla" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/VGA.sv Line: 29
+Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(65): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 65
+Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(75): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 75
 Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(104): truncated value with size 32 to match size of target (1) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 104
-Info (12128): Elaborating entity "Pixel_On_Text2" for hierarchy "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 42
-Warning (10036): Verilog HDL or VHDL warning at Pixel_On_Text2.vhd(29): object "charPosition" assigned a value but never read File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd Line: 29
+Warning (10230): Verilog HDL assignment warning at SyncPantalla.sv(105): truncated value with size 32 to match size of target (1) File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 105
+Info (12128): Elaborating entity "Pixel_On_Text2" for hierarchy "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/SyncPantalla.sv Line: 43
 Info (12128): Elaborating entity "Font_Rom" for hierarchy "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t1|Font_Rom:FontRom" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/Pixel_On_Text2.vhd Line: 41
-Info (12128): Elaborating entity "ALU" for hierarchy "ALU:aluCPU" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 62
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:aluCPU" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 67
 Info (12128): Elaborating entity "Sumador" for hierarchy "ALU:aluCPU|Sumador:sumadorALU" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ALU.sv Line: 33
 Info (12128): Elaborating entity "Restador" for hierarchy "ALU:aluCPU|Restador:restadorALU" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ALU.sv Line: 40
 Info (12128): Elaborating entity "Multiplicador" for hierarchy "ALU:aluCPU|Multiplicador:multiplicadorALU" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ALU.sv Line: 47
@@ -1129,9 +1208,43 @@ Warning (10235): Verilog HDL Always Construct warning at ControladorBanderas.sv(
 Warning (10235): Verilog HDL Always Construct warning at ControladorBanderas.sv(26): variable "borrowOut" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ControladorBanderas.sv Line: 26
 Warning (10235): Verilog HDL Always Construct warning at ControladorBanderas.sv(42): variable "overflow" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ControladorBanderas.sv Line: 42
 Warning (10235): Verilog HDL Always Construct warning at ControladorBanderas.sv(131): variable "carryOut" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/ControladorBanderas.sv Line: 131
-Info (12128): Elaborating entity "RamD" for hierarchy "RamD:Ram" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 68
-Warning (10850): Verilog HDL warning at RamD.sv(16): number of words (37) in memory file does not match the number of elements in the address range [0:327] File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RamD.sv Line: 16
+Info (12128): Elaborating entity "RamD" for hierarchy "RamD:Ram" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 73
+Warning (10850): Verilog HDL warning at RamD.sv(16): number of words (236) in memory file does not match the number of elements in the address range [0:327] File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RamD.sv Line: 16
 Warning (10855): Verilog HDL warning at RamD.sv(16): initial value for variable ram should be constant File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RamD.sv Line: 16
+Warning (10027): Verilog HDL or VHDL warning at the RamD.sv(26): index expression is not wide enough to address all of the elements in the array File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/RamD.sv Line: 26
+Info (12128): Elaborating entity "altsyncram" for hierarchy "RamD:Ram|altsyncram:ram[0][7]__1"
+Info (12130): Elaborated megafunction instantiation "RamD:Ram|altsyncram:ram[0][7]__1"
+Info (12133): Instantiated megafunction "RamD:Ram|altsyncram:ram[0][7]__1" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "8"
+    Info (12134): Parameter "WIDTHAD_A" = "8"
+    Info (12134): Parameter "NUMWORDS_A" = "256"
+    Info (12134): Parameter "WIDTH_B" = "8"
+    Info (12134): Parameter "WIDTHAD_B" = "8"
+    Info (12134): Parameter "NUMWORDS_B" = "256"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
+    Info (12134): Parameter "RDCONTROL_REG_B" = "CLOCK0"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_m0q1.tdf
+    Info (12023): Found entity 1: altsyncram_m0q1 File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_m0q1" for hierarchy "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "pruebaConexionRam" for hierarchy "pruebaConexionRam:pCR" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 83
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[0]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 39
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[1]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 67
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[2]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 95
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[3]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 123
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[4]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 151
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[5]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 179
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[6]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 207
+        Warning (14320): Synthesized away node "RamD:Ram|altsyncram:ram[0][7]__1|altsyncram_m0q1:auto_generated|q_b[7]" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_m0q1.tdf Line: 235
 Info (19000): Inferred 2 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "VGA:VGA_Controller|SyncPantalla:syncPantalla|Pixel_On_Text2:t2|Font_Rom:FontRom|ROM_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to ROM
@@ -1171,21 +1284,22 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_cvc1 File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/db/altsyncram_cvc1.tdf Line: 28
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
+Info (17049): 35 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/output_files/Ram.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "reset" File: C:/Users/J_Sol/Desktop/ProyectoFinalDigitales/ProyectoFinalDigitales/control_Reg_Inst.sv Line: 1
-Info (21057): Implemented 155 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 154 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 27 output pins
-    Info (21061): Implemented 110 logic cells
+    Info (21061): Implemented 109 logic cells
     Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
-    Info: Peak virtual memory: 4915 megabytes
-    Info: Processing ended: Fri Jun 10 22:36:02 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:20
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 34 warnings
+    Info: Peak virtual memory: 4872 megabytes
+    Info: Processing ended: Mon Jun 13 02:28:17 2022
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +------------------------------------------+
