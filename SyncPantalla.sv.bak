@@ -12,13 +12,14 @@
 
 module SyncPantalla(
 	input logic VGA_CLK_IN,
+	input logic [7:0] ram [64:0],
+	input  reg  [7:0] display,
 	output logic VGA_CLK_OUT,
 	output logic o_hsync,
 	output logic o_vsync,
 	output logic[7:0] out_R,
 	output logic[7:0] out_B,
-	output logic[7:0] out_G,
-	output logic[327:0] displayAsquii
+	output logic[7:0] out_G
 );
 	//Contadores para coordenadas
 	reg[9:0] X0=0;
@@ -28,12 +29,12 @@ module SyncPantalla(
 	reg[7:0] color_B=0;
 	reg[7:0] color_G=0;
 	
-	wire [31:0] displayAsquii[0:327] = displayAsquii;
-	
+
+	wire [7:0] displayA = display;
 			 
 	Pixel_On_Text2 t1(
 		VGA_CLK_IN,
-		displayAsquii[0],
+		displayA,
 		175, // text position.x (top left)
 		80, // text position.y (top left)
 		X0, // current position.x
@@ -44,7 +45,7 @@ module SyncPantalla(
 	
 	Pixel_On_Text2 t2(
 		VGA_CLK_IN,
-		displayAsquii[1],
+		displayA,
 		185, // text position.x (top left)
 		80, // text position.y (top left)
 		X0, // current position.x

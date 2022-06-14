@@ -7,7 +7,7 @@ use work.commonPak.all;
 entity Pixel_On_Text2 is
 	port (
 		clk: in std_logic;
-		displayAsquii: in integer;
+		displayAsquii: in string (1 to 2);
 		positionX: in integer;
 		positionY: in integer;
 		horzCoord: in integer;
@@ -33,7 +33,7 @@ begin
     -- (horzCoord - position.x): x positionin the top left of the whole text
     charPosition <= (horzCoord - positionX)/FONT_WIDTH + 1;
     bitPosition <= (horzCoord - positionX) mod FONT_WIDTH;
-    charCode <= displayAsquii;
+    charCode <= character'pos(displayAsquii(charPosition));
     -- charCode*16: first row of the char
     fontAddress <= charCode*16+(vertCoord - positionY);
 
@@ -55,7 +55,7 @@ begin
             inYRange := false;
             pixel <= '0';
             -- If current pixel is in the horizontal range of text
-            if horzCoord >= positionX and horzCoord < positionX + (FONT_WIDTH * 1) then
+            if horzCoord >= positionX and horzCoord < positionX + (FONT_WIDTH * displayAsquii'length) then
                 inXRange := true;
             end if;
             

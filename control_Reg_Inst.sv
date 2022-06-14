@@ -1,5 +1,5 @@
 module control_Reg_Inst(input logic clk,reset,
-	output logic [7:0] R,
+    output logic [7:0] R,
    output logic [7:0] G,
    output logic [7:0] B,
    output logic hsync,
@@ -22,10 +22,6 @@ logic [31:0] WriteData;
 logic [31:0] Instr;
 logic [7:0] ReadData;
 logic [7:0] ram [64:0];
-
-reg [7:0] display;
-
-assign display = ram[64];
 //logic [31:0] ReadDataAux;
 
 
@@ -50,20 +46,6 @@ Instuction_Register mIR(clk, reset,PCSrc,
 									WriteData,
 									Instr);
 									
-Clock clock(clk, clk2);
-
-VGA VGA_Controller(
-		.clk(clk),
-		.display(display),
-		.ram(ram[64:0]),
-		.Red(R), 
-		.Green(G), 
-		.Blue(B), 
-		.hsync(hsync), 
-		.vsync(vsync), 
-		.vgaclk(vgaclk)
-		);
-									
 ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], ALUFlags[1], ALUFlags[0]);
 
 //dataMemory dm(clk, MemWrite,Aluresult,WriteData,result);
@@ -74,13 +56,21 @@ RamD Ram(Aluresult[7:0], clk, WriteData, MemWrite, ReadData,ram[64:0]);
 
 muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
 
-initial begin
 
-$display("%b",ram[7'd0]);
 
-end
 
-pruebaConexionRam pCR(ram[64:0]);
+VGA VGA_Controller(
+        .clk(clk),
+//        .display(display),
+       .ram(ram),
+        .Red(R), 
+        .Green(G), 
+        .Blue(B), 
+        .hsync(hsync), 
+        .vsync(vsync), 
+        .vgaclk(vgaclk)
+        );
+		 
 
 //muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
 									

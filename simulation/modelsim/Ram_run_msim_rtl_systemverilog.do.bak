@@ -5,6 +5,8 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Clock.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/VGA.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Sumador.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv}
@@ -32,8 +34,12 @@ vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Us
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/SyncPantalla.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/instructionMemory.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv}
+vcom -93 -work work {C:/Users/arman/Desktop/ProyectoFinalDigitales/CommonPak.vhd}
+vcom -93 -work work {C:/Users/arman/Desktop/ProyectoFinalDigitales/Font_Rom.vhd}
+vcom -93 -work work {C:/Users/arman/Desktop/ProyectoFinalDigitales/Pixel_On_Text2.vhd}
 
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv}
