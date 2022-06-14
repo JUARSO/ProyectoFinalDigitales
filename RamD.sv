@@ -7,6 +7,7 @@ module RamD(input	logic [7:0] address,
 					
 					
 	logic [7:0] ram [327:0];
+	logic [8:0] bryan = 0;
 	//logic [7:0] out_aux;
 	
 
@@ -18,11 +19,7 @@ module RamD(input	logic [7:0] address,
 		
 		
 	assign q = ram[address];
-	assign ram_Out = ram[64:0];
 	
-	always @(*)
-    
-		$writememb("DatosVga.dat",ram);
 	
 		
 	always_ff @ (posedge clock) begin
@@ -30,10 +27,10 @@ module RamD(input	logic [7:0] address,
 			if(wren)
 				ram[address] <= data;
 			
+			bryan = bryan + 1;
 			
-
-				
-	
+			ram_Out[bryan] = ram[bryan];
+			
 	end	
 	
 	

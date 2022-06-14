@@ -3,7 +3,7 @@
 
 module test_control_Reg_Inst();
 
-logic clk,reset;
+logic clk,reset,resetvga;
 logic [7:0] R;
 logic [7:0] G;
 logic [7:0] B;
@@ -11,7 +11,7 @@ logic hsync;
 logic vsync;
 logic vgaclk;
 
-control_Reg_Inst CRI(clk,reset,R,G,B,hsync,vsync,vgaclk);
+control_Reg_Inst CRI(clk,reset,resetvga,R,G,B,hsync,vsync,vgaclk);
 
 initial begin
 

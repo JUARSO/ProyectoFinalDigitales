@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/arman/Desktop/ProyectoFinalDigitales/simulation/modelsim
 vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1655160077
+Z2 !s110 1655182976
 !i10b 1
 !s100 :]<47k;]PNR6<;T8:8Hd:0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1655160077.000000
+Z6 !s108 1655182976.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/ALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/ALU.sv|
 !i113 1
@@ -38,7 +38,7 @@ Z9 tCvgOpt 0
 n@a@l@u
 vclk_pc
 R1
-Z10 !s110 1655160078
+R2
 !i10b 1
 !s100 OEgRNnK2EO5;X>693c>Vd3
 R3
@@ -55,7 +55,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1655160078.000000
+R6
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/clk_pc.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/clk_pc.sv|
 !i113 1
@@ -64,7 +64,7 @@ R8
 R9
 vCompuertaAND
 R1
-R2
+Z10 !s110 1655182975
 !i10b 1
 !s100 0e234bi]bdkhzmeR5XgEO2
 R3
@@ -72,16 +72,16 @@ IjDNMEhYGLl=?aTRS3oZT^0
 R4
 S1
 R0
-Z12 w1647976768
+Z11 w1647976768
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaAND.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaAND.sv
 !i122 11
-Z13 L0 1 6
+Z12 L0 1 6
 R5
 r1
 !s85 0
 31
-R6
+Z13 !s108 1655182975.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaAND.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaAND.sv|
 !i113 1
@@ -91,7 +91,7 @@ R9
 n@compuerta@a@n@d
 vCompuertaOR
 R1
-R2
+R10
 !i10b 1
 !s100 K5@NXoFG>imIOo2Y8K=_13
 R3
@@ -99,16 +99,16 @@ I`iSjMBB3>RjY]j1R8CV2e0
 R4
 S1
 R0
-R12
+R11
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaOR.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaOR.sv
 !i122 10
-R13
+R12
 R5
 r1
 !s85 0
 31
-R6
+R13
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaOR.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaOR.sv|
 !i113 1
@@ -118,7 +118,7 @@ R9
 n@compuerta@o@r
 vCompuertaXOR
 R1
-Z14 !s110 1655160076
+R10
 !i10b 1
 !s100 7Hi;^m[=PDOdFjG2=6JL;2
 R3
@@ -126,16 +126,16 @@ I0S_Elhf2SiHON3Uh1b@i90
 R4
 S1
 R0
-R12
+R11
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaXOR.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaXOR.sv
 !i122 9
-R13
+R12
 R5
 r1
 !s85 0
 31
-Z15 !s108 1655160076.000000
+R13
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaXOR.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaXOR.sv|
 !i113 1
@@ -145,7 +145,7 @@ R9
 n@compuerta@x@o@r
 vcondcheck
 R1
-Z16 !s110 1655160080
+Z14 !s110 1655182978
 !i10b 1
 !s100 go<NUBbUfKSNNnI]S<zi62
 R3
@@ -153,25 +153,25 @@ IYLSGG>Ve_bcN]T@GXbEU>2
 R4
 S1
 R0
-Z17 w1654277781
-Z18 8C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv
-Z19 FC:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv
+Z15 w1654277781
+Z16 8C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv
+Z17 FC:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv
 !i122 20
 L0 25 28
 R5
 r1
 !s85 0
 31
-Z20 !s108 1655160080.000000
-Z21 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv|
-Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv|
+Z18 !s108 1655182978.000000
+Z19 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv|
 !i113 1
 R7
 R8
 R9
 vcondlogic
 R1
-R16
+R14
 !i10b 1
 !s100 kbf0:@7O:Qno6H3od0KPD1
 R3
@@ -179,42 +179,42 @@ IBj_:5SD9D@0oiKW`;cdlK3
 R4
 S1
 R0
+R15
+R16
 R17
-R18
-R19
 !i122 20
-Z23 L0 1 23
+Z21 L0 1 23
 R5
 r1
 !s85 0
 31
+R18
+R19
 R20
-R21
-R22
 !i113 1
 R7
 R8
 R9
 vcontrol_Reg_Inst
 R1
-Z24 !s110 1655160082
+Z22 !s110 1655182980
 !i10b 1
-!s100 d:Ye>V7^=C:aA]`RbAeAN1
+!s100 E3IVc1W;6ONmQ1dzZ>CRV1
 R3
-INkjX=dRIA8fmdd<N=Pl4M0
+IhdLPfZN0MI[Q>YK8kUbae2
 R4
 S1
 R0
-w1655158710
+w1655182934
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv
 !i122 25
-L0 1 77
+L0 1 76
 R5
 r1
 !s85 0
 31
-Z25 !s108 1655160082.000000
+Z23 !s108 1655182979.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv|
 !i113 1
@@ -224,7 +224,7 @@ R9
 ncontrol_@reg_@inst
 vControladorBanderas
 R1
-R14
+R10
 !i10b 1
 !s100 9g_?<H8c168GZHAZM5DGP3
 R3
@@ -241,7 +241,7 @@ R5
 r1
 !s85 0
 31
-R15
+Z24 !s108 1655182974.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/ControladorBanderas.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/ControladorBanderas.sv|
 !i113 1
@@ -251,7 +251,7 @@ R9
 n@controlador@banderas
 vdecode
 R1
-Z26 !s110 1655160079
+R14
 !i10b 1
 !s100 g^10R5nRC0H7hHj4@o;OD0
 R3
@@ -268,7 +268,7 @@ R5
 r1
 !s85 0
 31
-Z27 !s108 1655160079.000000
+Z25 !s108 1655182977.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/decode.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/decode.sv|
 !i113 1
@@ -277,7 +277,7 @@ R8
 R9
 vDivisor
 R1
-R14
+Z26 !s110 1655182974
 !i10b 1
 !s100 J`7<F^>Ybg=V>:DB[7g2c0
 R3
@@ -289,12 +289,12 @@ w1648044814
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/Divisor.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/Divisor.sv
 !i122 7
-R13
+R12
 R5
 r1
 !s85 0
 31
-R15
+R24
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Divisor.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Divisor.sv|
 !i113 1
@@ -304,7 +304,7 @@ R9
 n@divisor
 vextend
 R1
-R26
+Z27 !s110 1655182977
 !i10b 1
 !s100 UTMKM`gTjS^e2SJVJ[2L;2
 R3
@@ -321,7 +321,7 @@ R5
 r1
 !s85 0
 31
-R27
+R25
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/extend.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/extend.sv|
 !i113 1
@@ -330,7 +330,7 @@ R8
 R9
 vflopenr
 R1
-R16
+R14
 !i10b 1
 !s100 W[z6j9P008hO05^WOHG6b0
 R3
@@ -347,7 +347,7 @@ R5
 r1
 !s85 0
 31
-R20
+R18
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/flopenr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/flopenr.sv|
 !i113 1
@@ -356,7 +356,7 @@ R8
 R9
 vinstructionMemory
 R1
-R24
+R22
 !i10b 1
 !s100 D9>;PAl8:P^EhNEIcGV<U2
 R3
@@ -373,7 +373,7 @@ R5
 r1
 !s85 0
 31
-R25
+Z30 !s108 1655182980.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/instructionMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/instructionMemory.sv|
 !i113 1
@@ -383,7 +383,7 @@ R9
 ninstruction@memory
 vInstuction_Register
 R1
-R24
+Z31 !s110 1655182979
 !i10b 1
 !s100 F7@m3XO60LEMLNJ:ogC`z3
 R3
@@ -395,12 +395,12 @@ w1654120546
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv
 !i122 24
-Z30 L0 1 36
+Z32 L0 1 36
 R5
 r1
 !s85 0
 31
-Z31 !s108 1655160081.000000
+R23
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv|
 !i113 1
@@ -410,7 +410,7 @@ R9
 n@instuction_@register
 vModulador
 R1
-R14
+R26
 !i10b 1
 !s100 ^3=3UjIe?g:;;e_=8SM_50
 R3
@@ -418,16 +418,16 @@ I=jQkgnaN<LP]5ljNZEM0b1
 R4
 S1
 R0
-R12
+R11
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/Modulador.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/Modulador.sv
 !i122 6
-R13
+R12
 R5
 r1
 !s85 0
 31
-Z32 !s108 1655160075.000000
+R24
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Modulador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Modulador.sv|
 !i113 1
@@ -437,7 +437,7 @@ R9
 n@modulador
 vmodulo_instrucciones
 R1
-R10
+R27
 !i10b 1
 !s100 hPf7l3Hgz`??VS1OXKMK23
 R3
@@ -454,7 +454,7 @@ R5
 r1
 !s85 0
 31
-R11
+R25
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_instrucciones.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_instrucciones.sv|
 !i113 1
@@ -463,7 +463,7 @@ R8
 R9
 vmodulo_PC
 R1
-R26
+R27
 !i10b 1
 !s100 a5U?]4?7:cHH4zYI8z3h@2
 R3
@@ -480,7 +480,7 @@ R5
 r1
 !s85 0
 31
-R27
+R25
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_PC.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_PC.sv|
 !i113 1
@@ -490,7 +490,7 @@ R9
 nmodulo_@p@c
 vMov
 R1
-R24
+R22
 !i10b 1
 !s100 XmIUH]7YnN?SV^5>MzY>o1
 R3
@@ -502,12 +502,12 @@ w1654575241
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv
 !i122 26
-R13
+R12
 R5
 r1
 !s85 0
 31
-R25
+R30
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv|
 !i113 1
@@ -517,7 +517,7 @@ R9
 n@mov
 vMultiplexor
 R1
-Z34 !s110 1655160075
+R26
 !i10b 1
 !s100 C3W8CBl^^Y1WS`IFi;0li3
 R3
@@ -529,12 +529,12 @@ w1654575212
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplexor.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplexor.sv
 !i122 5
-R30
+R32
 R5
 r1
 !s85 0
 31
-R32
+R24
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplexor.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplexor.sv|
 !i113 1
@@ -544,7 +544,7 @@ R9
 n@multiplexor
 vMultiplicador
 R1
-R34
+Z34 !s110 1655182973
 !i10b 1
 !s100 j^j2J>T1nS`Ra:z<3NhcX2
 R3
@@ -552,7 +552,7 @@ ITUVlf[JHM[73zkA]D4Y<D1
 R4
 S1
 R0
-R12
+R11
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplicador.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplicador.sv
 !i122 4
@@ -561,7 +561,7 @@ R5
 r1
 !s85 0
 31
-R32
+Z36 !s108 1655182973.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplicador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplicador.sv|
 !i113 1
@@ -571,7 +571,7 @@ R9
 n@multiplicador
 vmuxARM
 R1
-R16
+R14
 !i10b 1
 !s100 4@W]:QX^:U[MXfBhiBOnC2
 R3
@@ -588,7 +588,7 @@ R5
 r1
 !s85 0
 31
-R27
+R18
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/muxARM.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/muxARM.sv|
 !i113 1
@@ -598,7 +598,7 @@ R9
 nmux@a@r@m
 vRAM_Test
 R1
-Z36 !s110 1655160086
+Z37 !s110 1655182982
 !i10b 1
 !s100 8:MVm`j=nH1<L6ZQ^R]6a3
 R3
@@ -615,7 +615,7 @@ R5
 r1
 !s85 0
 31
-Z37 !s108 1655160086.000000
+Z38 !s108 1655182982.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/RAM_Test.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/RAM_Test.sv|
 !i113 1
@@ -625,24 +625,24 @@ R9
 n@r@a@m_@test
 vRamD
 R1
-Z38 !s110 1655160083
+R22
 !i10b 1
-!s100 nk6U9h1kTB8B>Wf2mLn5[0
+!s100 T5oI0kzcPSmNDWHM6[f>Q2
 R3
-I<<[5akSib^=ea^IO:ON:o2
+IHWe<Na5naSCGg3_F=FFZm1
 R4
 S1
 R0
-w1655160014
+w1655178953
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv
 !i122 28
-L0 1 47
+L0 1 44
 R5
 r1
 !s85 0
 31
-Z39 !s108 1655160083.000000
+R30
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv|
 !i113 1
@@ -652,7 +652,7 @@ R9
 n@ram@d
 vregfile
 R1
-Z40 !s110 1655160081
+R31
 !i10b 1
 !s100 OVe<zn]nIF6YZPPS7G[Gh1
 R3
@@ -669,7 +669,7 @@ R5
 r1
 !s85 0
 31
-R31
+R23
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/regfile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/regfile.sv|
 !i113 1
@@ -695,7 +695,7 @@ R5
 r1
 !s85 0
 31
-R32
+R36
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Restador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Restador.sv|
 !i113 1
@@ -705,7 +705,7 @@ R9
 n@restador
 vShiftLeft
 R1
-R34
+Z39 !s110 1655182971
 !i10b 1
 !s100 PMnzfTJQ:@>hWEG5=NRgJ0
 R3
@@ -713,16 +713,16 @@ I4=::M^[d`ZiCFRzWF^WR>1
 R4
 S1
 R0
-R12
+R11
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv
 !i122 2
-Z41 L0 1 8
+Z40 L0 1 8
 R5
 r1
 !s85 0
 31
-Z42 !s108 1655160074.000000
+Z41 !s108 1655182971.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv|
 !i113 1
@@ -732,7 +732,7 @@ R9
 n@shift@left
 vShiftRight
 R1
-!s110 1655160074
+R39
 !i10b 1
 !s100 3Kdl19WWd=VVC1lYa2mNX2
 R3
@@ -740,16 +740,16 @@ I:FVTcjTgVhg4VHSn0^k3K2
 R4
 S1
 R0
-R12
+R11
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv
 !i122 1
-R41
+R40
 R5
 r1
 !s85 0
 31
-R42
+R41
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv|
 !i113 1
@@ -759,7 +759,7 @@ R9
 n@shift@right
 vsum_pc
 R1
-R10
+R2
 !i10b 1
 !s100 P9S6XkiYbBoeGhLXa4CNC0
 R3
@@ -776,7 +776,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/sum_pc.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/sum_pc.sv|
 !i113 1
@@ -785,7 +785,7 @@ R8
 R9
 vSumador
 R1
-!s110 1655160073
+!s110 1655182970
 !i10b 1
 !s100 M];n8d@c8edz3fB5<0T9f0
 R3
@@ -802,7 +802,7 @@ R5
 r1
 !s85 0
 31
-!s108 1655160073.000000
+!s108 1655182970.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/Sumador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/Sumador.sv|
 !i113 1
@@ -812,15 +812,15 @@ R9
 n@sumador
 vtest_control_Reg_Inst
 R1
-R36
+R37
 !i10b 1
-!s100 DYd=dG`izBZj1gXSFMAn_1
+!s100 9cZ3oEQX`Jk^Ja0jCTTO?2
 R3
-I1h>XM^5kOWoN[MNRk4fId2
+I5>A7DW[j5ZNMKfZE`kImV3
 R4
 S1
 R0
-w1655158539
+w1655179184
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv
 !i122 36
@@ -829,7 +829,7 @@ R5
 r1
 !s85 0
 31
-Z43 !s108 1655160085.000000
+R38
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv|
 !i113 1
@@ -839,7 +839,7 @@ R9
 ntest_control_@reg_@inst
 vtest_cpu
 R1
-R36
+!s110 1655182983
 !i10b 1
 !s100 QD[K0KT@1C@Jb9mLDjQno0
 R3
@@ -851,12 +851,12 @@ w1654890965
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/test_cpu.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/test_cpu.sv
 !i122 38
-Z44 L0 1 31
+Z42 L0 1 31
 R5
 r1
 !s85 0
 31
-R37
+R38
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_cpu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_cpu.sv|
 !i113 1
@@ -865,7 +865,7 @@ R8
 R9
 vtest_Instruction_Memory
 R1
-R38
+Z43 !s110 1655182981
 !i10b 1
 !s100 YHAO5Pi;hX0fEidhAbiBd3
 R3
@@ -877,12 +877,12 @@ w1653677396
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv
 !i122 29
-R23
+R21
 R5
 r1
 !s85 0
 31
-R39
+R30
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv|
 !i113 1
@@ -892,7 +892,7 @@ R9
 ntest_@instruction_@memory
 vtest_Instuction_Register
 R1
-Z45 !s110 1655160085
+R37
 !i10b 1
 !s100 <UUOZ8iSO>:0::Kd3Z<:M0
 R3
@@ -909,7 +909,7 @@ R5
 r1
 !s85 0
 31
-R43
+R38
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instuction_Register.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instuction_Register.sv|
 !i113 1
@@ -919,7 +919,7 @@ R9
 ntest_@instuction_@register
 vtest_moduloInstrucciones
 R1
-R38
+R43
 !i10b 1
 !s100 i4Tl_XYhT6XSIz1L]BlQ`0
 R3
@@ -931,12 +931,12 @@ w1654889530
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv
 !i122 30
-R44
+R42
 R5
 r1
 !s85 0
 31
-R39
+Z44 !s108 1655182981.000000
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv|
 !i113 1
@@ -946,7 +946,7 @@ R9
 ntest_modulo@instrucciones
 vtest_moduloPC
 R1
-Z46 !s110 1655160084
+R43
 !i10b 1
 !s100 L7I`@R1nh9_?CSSVdbmTH3
 R3
@@ -963,7 +963,7 @@ R5
 r1
 !s85 0
 31
-Z47 !s108 1655160084.000000
+R44
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloPC.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloPC.sv|
 !i113 1
@@ -973,7 +973,7 @@ R9
 ntest_modulo@p@c
 vtest_suma
 R1
-R46
+R43
 !i10b 1
 !s100 g49===j>CN?U>Rbi_@k5^1
 R3
@@ -990,7 +990,7 @@ R5
 r1
 !s85 0
 31
-R47
+R44
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_suma.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_suma.sv|
 !i113 1
@@ -999,7 +999,7 @@ R8
 R9
 vtest_UnidadControl
 R1
-R45
+R37
 !i10b 1
 !s100 TfZ;2U;SeBEDHaQK1U1420
 R3
@@ -1016,7 +1016,7 @@ R5
 r1
 !s85 0
 31
-R43
+R38
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/test_UnidadControl.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/test_UnidadControl.sv|
 !i113 1
@@ -1026,7 +1026,7 @@ R9
 ntest_@unidad@control
 vtestMUX
 R1
-R45
+R37
 !i10b 1
 !s100 @kcFK1WEL1S8an`D1W?ZS2
 R3
@@ -1043,7 +1043,7 @@ R5
 r1
 !s85 0
 31
-R47
+R44
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/testMUX.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/testMUX.sv|
 !i113 1
@@ -1053,7 +1053,7 @@ R9
 ntest@m@u@x
 vunidadControl
 R1
-R40
+R31
 !i10b 1
 !s100 I0[1d0eQ[U>AcVJP4A0IY0
 R3
@@ -1065,12 +1065,12 @@ w1654652525
 8C:/Users/arman/Desktop/ProyectoFinalDigitales/unidadControl.sv
 FC:/Users/arman/Desktop/ProyectoFinalDigitales/unidadControl.sv
 !i122 22
-R23
+R21
 R5
 r1
 !s85 0
 31
-R31
+R18
 !s107 C:/Users/arman/Desktop/ProyectoFinalDigitales/unidadControl.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales|C:/Users/arman/Desktop/ProyectoFinalDigitales/unidadControl.sv|
 !i113 1

@@ -13,400 +13,400 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Sumador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:13 on Jun 13,2022
+# Start time: 23:02:50 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Sumador.sv 
 # -- Compiling module Sumador
 # 
 # Top level modules:
 # 	Sumador
-# End time: 16:41:13 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:50 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:14 on Jun 13,2022
+# Start time: 23:02:51 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftRight.sv 
 # -- Compiling module ShiftRight
 # 
 # Top level modules:
 # 	ShiftRight
-# End time: 16:41:14 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:51 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:14 on Jun 13,2022
+# Start time: 23:02:51 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/ShiftLeft.sv 
 # -- Compiling module ShiftLeft
 # 
 # Top level modules:
 # 	ShiftLeft
-# End time: 16:41:15 on Jun 13,2022, Elapsed time: 0:00:01
+# End time: 23:02:51 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Restador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:15 on Jun 13,2022
+# Start time: 23:02:53 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Restador.sv 
 # -- Compiling module Restador
 # 
 # Top level modules:
 # 	Restador
-# End time: 16:41:15 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:53 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplicador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:15 on Jun 13,2022
+# Start time: 23:02:53 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplicador.sv 
 # -- Compiling module Multiplicador
 # 
 # Top level modules:
 # 	Multiplicador
-# End time: 16:41:15 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:53 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplexor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:15 on Jun 13,2022
+# Start time: 23:02:54 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Multiplexor.sv 
 # -- Compiling module Multiplexor
 # 
 # Top level modules:
 # 	Multiplexor
-# End time: 16:41:15 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:54 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Modulador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:15 on Jun 13,2022
+# Start time: 23:02:54 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Modulador.sv 
 # -- Compiling module Modulador
 # 
 # Top level modules:
 # 	Modulador
-# End time: 16:41:16 on Jun 13,2022, Elapsed time: 0:00:01
+# End time: 23:02:54 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Divisor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:16 on Jun 13,2022
+# Start time: 23:02:54 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Divisor.sv 
 # -- Compiling module Divisor
 # 
 # Top level modules:
 # 	Divisor
-# End time: 16:41:16 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:54 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/ControladorBanderas.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:16 on Jun 13,2022
+# Start time: 23:02:54 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/ControladorBanderas.sv 
 # -- Compiling module ControladorBanderas
 # 
 # Top level modules:
 # 	ControladorBanderas
-# End time: 16:41:16 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:55 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaXOR.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:16 on Jun 13,2022
+# Start time: 23:02:55 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaXOR.sv 
 # -- Compiling module CompuertaXOR
 # 
 # Top level modules:
 # 	CompuertaXOR
-# End time: 16:41:16 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:55 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaOR.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:17 on Jun 13,2022
+# Start time: 23:02:55 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaOR.sv 
 # -- Compiling module CompuertaOR
 # 
 # Top level modules:
 # 	CompuertaOR
-# End time: 16:41:17 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:55 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaAND.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:17 on Jun 13,2022
+# Start time: 23:02:55 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/CompuertaAND.sv 
 # -- Compiling module CompuertaAND
 # 
 # Top level modules:
 # 	CompuertaAND
-# End time: 16:41:17 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:55 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:17 on Jun 13,2022
+# Start time: 23:02:56 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/ALU.sv 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 16:41:17 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:56 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/clk_pc.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:18 on Jun 13,2022
+# Start time: 23:02:56 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/clk_pc.sv 
 # -- Compiling module clk_pc
 # 
 # Top level modules:
 # 	clk_pc
-# End time: 16:41:18 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:56 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/sum_pc.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:18 on Jun 13,2022
+# Start time: 23:02:56 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/sum_pc.sv 
 # -- Compiling module sum_pc
 # 
 # Top level modules:
 # 	sum_pc
-# End time: 16:41:18 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:56 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_instrucciones.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:18 on Jun 13,2022
+# Start time: 23:02:57 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_instrucciones.sv 
 # -- Compiling module modulo_instrucciones
 # 
 # Top level modules:
 # 	modulo_instrucciones
-# End time: 16:41:18 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:57 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_PC.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:19 on Jun 13,2022
+# Start time: 23:02:57 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/modulo_PC.sv 
 # -- Compiling module modulo_PC
 # 
 # Top level modules:
 # 	modulo_PC
-# End time: 16:41:19 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:57 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:19 on Jun 13,2022
+# Start time: 23:02:57 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 16:41:19 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:57 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/decode.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:19 on Jun 13,2022
+# Start time: 23:02:57 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/decode.sv 
 # -- Compiling module decode
 # 
 # Top level modules:
 # 	decode
-# End time: 16:41:19 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:58 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/muxARM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:19 on Jun 13,2022
+# Start time: 23:02:58 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/muxARM.sv 
 # -- Compiling module muxARM
 # 
 # Top level modules:
 # 	muxARM
-# End time: 16:41:20 on Jun 13,2022, Elapsed time: 0:00:01
+# End time: 23:02:58 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:20 on Jun 13,2022
+# Start time: 23:02:58 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/condlogic.sv 
 # -- Compiling module condlogic
 # -- Compiling module condcheck
 # 
 # Top level modules:
 # 	condlogic
-# End time: 16:41:20 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:58 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:20 on Jun 13,2022
+# Start time: 23:02:58 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 16:41:20 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:58 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/unidadControl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:21 on Jun 13,2022
+# Start time: 23:02:58 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/unidadControl.sv 
 # -- Compiling module unidadControl
 # 
 # Top level modules:
 # 	unidadControl
-# End time: 16:41:21 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:59 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:21 on Jun 13,2022
+# Start time: 23:02:59 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 16:41:21 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:02:59 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:21 on Jun 13,2022
+# Start time: 23:02:59 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv 
 # -- Compiling module Instuction_Register
 # 
 # Top level modules:
 # 	Instuction_Register
-# End time: 16:41:22 on Jun 13,2022, Elapsed time: 0:00:01
+# End time: 23:02:59 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:22 on Jun 13,2022
+# Start time: 23:02:59 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv 
 # -- Compiling module control_Reg_Inst
 # 
 # Top level modules:
 # 	control_Reg_Inst
-# End time: 16:41:22 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:00 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:22 on Jun 13,2022
+# Start time: 23:03:00 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv 
 # -- Compiling module Mov
 # 
 # Top level modules:
 # 	Mov
-# End time: 16:41:22 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:00 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/instructionMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:22 on Jun 13,2022
+# Start time: 23:03:00 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/instructionMemory.sv 
 # -- Compiling module instructionMemory
 # 
 # Top level modules:
 # 	instructionMemory
-# End time: 16:41:22 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:00 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:23 on Jun 13,2022
+# Start time: 23:03:00 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv 
 # -- Compiling module RamD
 # 
 # Top level modules:
 # 	RamD
-# End time: 16:41:23 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:00 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:23 on Jun 13,2022
+# Start time: 23:03:00 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instruction_Memory.sv 
 # -- Compiling module test_Instruction_Memory
 # 
 # Top level modules:
 # 	test_Instruction_Memory
-# End time: 16:41:23 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:01 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:23 on Jun 13,2022
+# Start time: 23:03:01 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloInstrucciones.sv 
 # -- Compiling module test_moduloInstrucciones
 # 
 # Top level modules:
 # 	test_moduloInstrucciones
-# End time: 16:41:23 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:01 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_suma.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:24 on Jun 13,2022
+# Start time: 23:03:01 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_suma.sv 
 # -- Compiling module test_suma
 # 
 # Top level modules:
 # 	test_suma
-# End time: 16:41:24 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:01 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloPC.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:24 on Jun 13,2022
+# Start time: 23:03:01 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_moduloPC.sv 
 # -- Compiling module test_moduloPC
 # 
 # Top level modules:
 # 	test_moduloPC
-# End time: 16:41:24 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:01 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/testMUX.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:24 on Jun 13,2022
+# Start time: 23:03:01 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/testMUX.sv 
 # -- Compiling module testMUX
 # 
 # Top level modules:
 # 	testMUX
-# End time: 16:41:25 on Jun 13,2022, Elapsed time: 0:00:01
+# End time: 23:03:02 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_UnidadControl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:25 on Jun 13,2022
+# Start time: 23:03:02 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_UnidadControl.sv 
 # -- Compiling module test_UnidadControl
 # 
 # Top level modules:
 # 	test_UnidadControl
-# End time: 16:41:25 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:02 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instuction_Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:25 on Jun 13,2022
+# Start time: 23:03:02 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_Instuction_Register.sv 
 # -- Compiling module test_Instuction_Register
 # 
 # Top level modules:
 # 	test_Instuction_Register
-# End time: 16:41:25 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:02 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:25 on Jun 13,2022
+# Start time: 23:03:02 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv 
 # -- Compiling module test_control_Reg_Inst
 # 
 # Top level modules:
 # 	test_control_Reg_Inst
-# End time: 16:41:26 on Jun 13,2022, Elapsed time: 0:00:01
+# End time: 23:03:02 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/RAM_Test.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:26 on Jun 13,2022
+# Start time: 23:03:02 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/RAM_Test.sv 
 # -- Compiling module RAM_Test
 # 
 # Top level modules:
 # 	RAM_Test
-# End time: 16:41:26 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:02 on Jun 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/test_cpu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:26 on Jun 13,2022
+# Start time: 23:03:02 on Jun 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales" C:/Users/arman/Desktop/ProyectoFinalDigitales/test_cpu.sv 
 # -- Compiling module test_cpu
 # 
 # Top level modules:
 # 	test_cpu
-# End time: 16:41:26 on Jun 13,2022, Elapsed time: 0:00:00
+# End time: 23:03:03 on Jun 13,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Test_Instruction_Memory
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Test_Instruction_Memory 
-# Start time: 16:41:27 on Jun 13,2022
+# Start time: 23:03:03 on Jun 13,2022
 # ** Error: (vsim-3170) Could not find 'Test_Instruction_Memory'.
 #         Searched libraries:
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
@@ -425,7 +425,7 @@
 # MACRO ./Ram_run_msim_rtl_verilog.do PAUSED at line 49
 vsim work.test_control_Reg_Inst
 # vsim work.test_control_Reg_Inst 
-# Start time: 16:41:27 on Jun 13,2022
+# Start time: 23:03:03 on Jun 13,2022
 # Loading sv_std.std
 # Loading work.test_control_Reg_Inst
 # Loading work.control_Reg_Inst
@@ -460,43 +460,6 @@ vsim work.test_control_Reg_Inst
 # Loading work.RamD
 run -all
 # Break key hit
-# Break in Module clk_pc at C:/Users/arman/Desktop/ProyectoFinalDigitales/clk_pc.sv line 9
-vsim work.test_control_Reg_Inst
-# End time: 16:59:15 on Jun 13,2022, Elapsed time: 0:17:48
+# Break in Module test_control_Reg_Inst at C:/Users/arman/Desktop/ProyectoFinalDigitales/test_control_Reg_Inst.sv line 32
+# End time: 23:04:17 on Jun 13,2022, Elapsed time: 0:01:14
 # Errors: 1, Warnings: 0
-# vsim work.test_control_Reg_Inst 
-# Start time: 16:59:16 on Jun 13,2022
-# Loading sv_std.std
-# Loading work.test_control_Reg_Inst
-# Loading work.control_Reg_Inst
-# Loading work.unidadControl
-# Loading work.decode
-# Loading work.condlogic
-# Loading work.flopenr
-# Loading work.condcheck
-# Loading work.Instuction_Register
-# Loading work.modulo_instrucciones
-# Loading work.modulo_PC
-# Loading work.muxARM
-# Loading work.clk_pc
-# Loading work.sum_pc
-# Loading work.instructionMemory
-# Loading work.regfile
-# Loading work.extend
-# Loading work.ALU
-# Loading work.Sumador
-# Loading work.Restador
-# Loading work.Multiplicador
-# Loading work.Divisor
-# Loading work.Modulador
-# Loading work.CompuertaAND
-# Loading work.CompuertaOR
-# Loading work.CompuertaXOR
-# Loading work.ShiftLeft
-# Loading work.ShiftRight
-# Loading work.Mov
-# Loading work.Multiplexor
-# Loading work.ControladorBanderas
-# Loading work.RamD
-# WARNING: No extended dataflow license exists
-run -all

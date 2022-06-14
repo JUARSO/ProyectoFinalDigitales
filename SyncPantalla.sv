@@ -5,7 +5,7 @@
 
 
 module SyncPantalla(
-	input logic VGA_CLK_IN,
+	input logic VGA_CLK_IN,reset,
 	input logic [7:0] ram [64:0],
 //	input  reg  [7:0] display,
 	output logic VGA_CLK_OUT,
@@ -16,9 +16,12 @@ module SyncPantalla(
 	output logic[7:0] out_G
 );
 
-	logic [7:0] ramA [64:0];
-	//initial
-		//$readmemb("DatosVga.dat",ramA);
+	wire [7:0] displayA [64:0] = ram;
+
+	
+	
+
+
 
 	//Contadores para coordenadas
 	reg[9:0] X0=0;
@@ -29,7 +32,9 @@ module SyncPantalla(
 	reg[7:0] color_G=0;
 	
 	
-	wire [7:0] displayA [64:0] = ram;
+	
+	//wire [7:0] displayA [64:0] = display;
+	
 			 
 	Pixel_On_Text2 t1(
 		VGA_CLK_IN,
@@ -346,6 +351,8 @@ module SyncPantalla(
 		pixel30  // result, 1 if current pixel is on text, 0 otherwise
 	);
 	
+	
+	
 	Pixel_On_Text2 t31(
 		VGA_CLK_IN,
 		displayA[30],
@@ -455,7 +462,6 @@ module SyncPantalla(
 	
 
 
-		
 
 	
 	//FOR DOBLE
@@ -497,8 +503,7 @@ module SyncPantalla(
 				if(pixel == 1 || pixel2 == 1 || pixel3 == 1 || pixel4 == 1 || pixel5 == 1 || pixel6 == 1 || pixel7 == 1 || pixel8 == 1
 				|| pixel9 == 1 || pixel10 == 1 || pixel11 == 1 || pixel12 == 1 || pixel13 == 1 || pixel14 == 1 || pixel15 == 1 || pixel16 == 1
 				|| pixel17 == 1 || pixel18 == 1 || pixel19 == 1 || pixel20 == 1|| pixel21 == 1|| pixel22 == 1  || pixel23 == 1 || pixel24 == 1 
-				|| pixel25 == 1 || pixel26 == 1 || pixel27 == 1 || pixel28 == 1|| pixel29 == 1 || pixel30 == 1 || pixel31 == 1 || pixel32 == 1 || pixel33 == 1 
-				|| pixel34 == 1 || pixel35 == 1 || pixel36 == 1|| pixel37 == 1 || pixel38 == 1 || pixel39 == 1 || pixel40 == 1) {color_R,color_G,color_B} <= `BLACK;
+				|| pixel25 == 1 || pixel26 == 1 || pixel27 == 1 || pixel28 == 1|| pixel29 == 1 || pixel30 == 1) {color_R,color_G,color_B} <= `BLACK;
 				else {color_R,color_G,color_B} <= `WHITE;
 			end
 		

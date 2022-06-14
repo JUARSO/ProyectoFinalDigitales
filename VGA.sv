@@ -1,5 +1,5 @@
 module VGA(
-    input logic clk,
+    input logic clk,reset,
 //    input logic [7:0] display ,
     input logic [7:0] ram [64:0],
     output logic [7:0] Red,
@@ -18,6 +18,7 @@ module VGA(
     Clock clock(clk, clk2);
     SyncPantalla syncPantalla(
 //        .display(display),
+		  .reset(reset),
         .ram(ram),
         .VGA_CLK_IN(clk2), 
         .o_hsync(hsync), 

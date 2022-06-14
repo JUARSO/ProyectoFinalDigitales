@@ -1,4 +1,4 @@
-module control_Reg_Inst(input logic clk,reset,
+module control_Reg_Inst(input logic clk,reset, resetVGA,
     output logic [7:0] R,
    output logic [7:0] G,
    output logic [7:0] B,
@@ -55,12 +55,11 @@ ALU #(32) aluCPU(SrcA, SrcB, ALUControl, Aluresult, ALUFlags[3], ALUFlags[2], AL
 RamD Ram(Aluresult[7:0], clk, WriteData, MemWrite, ReadData,ram[64:0]);
 
 muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
-
-
-
+/*
 
 VGA VGA_Controller(
         .clk(clk),
+		  .reset(resetVGA),
 //        .display(display),
        .ram(ram),
         .Red(R), 
@@ -70,7 +69,7 @@ VGA VGA_Controller(
         .vsync(vsync), 
         .vgaclk(vgaclk)
         );
-		 
+		  */
 
 //muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
 									
