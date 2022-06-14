@@ -21,6 +21,11 @@ module RamD(input	logic [7:0] address,
 	assign q = ram[address];
 	
 	
+always @(*)
+
+		$writememb("DatosVga.dat",ram);
+	
+	
 		
 	always_ff @ (posedge clock) begin
 		

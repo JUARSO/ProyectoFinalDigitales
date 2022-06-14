@@ -32,6 +32,7 @@ vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Us
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Instuction_Register.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/control_Reg_Inst.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/Mov.sv}
+vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/pruebaConexionRam.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/instructionMemory.sv}
 vlog -sv -work work +incdir+C:/Users/arman/Desktop/ProyectoFinalDigitales {C:/Users/arman/Desktop/ProyectoFinalDigitales/RamD.sv}
 

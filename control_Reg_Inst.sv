@@ -69,8 +69,12 @@ VGA VGA_Controller(
         .vsync(vsync), 
         .vgaclk(vgaclk)
         );
-		  */
+	*/	 
+	
+ //pruebaConexionRam pb(ram);
 
-//muxARM #(32) muxALUDATA(Aluresult,{24'b0, ReadData},MemtoReg,result);
-									
+always @(*)
+
+		$display("%p",ram);
+		
 endmodule
